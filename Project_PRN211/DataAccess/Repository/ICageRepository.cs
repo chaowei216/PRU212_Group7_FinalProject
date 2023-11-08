@@ -15,5 +15,6 @@ namespace DataAccess.Repository
         public void AddCage(Cage cage);
         public void UpdateCage(Cage cage);
         public void DeleteCage(Cage cage);
+        public List<Cage> GetCagesByAreaName(string areaName);
     }
 }

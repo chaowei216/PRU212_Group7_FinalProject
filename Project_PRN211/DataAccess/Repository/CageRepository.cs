@@ -34,6 +34,11 @@ namespace DataAccess.Repository
             return CageDAO.Instance.GetCageByName(name);
         }
 
+        public List<Cage> GetCagesByAreaName(string areaName)
+        {
+            return CageDAO.Instance.GetCagesByAreaName(areaName);
+        }
+
         public void UpdateCage(Cage cage)
         {
             CageDAO.Instance.UpdateCage(cage);

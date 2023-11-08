@@ -86,5 +86,10 @@ namespace DataAccess
                 throw new Exception("ID not found");
             }
         }
+        public List<Cage> GetCagesByAreaName(string areaName)
+        {
+            List<Cage> list = GetAllCages();
+            return list.Where(cage => cage.Cid.StartsWith(areaName)).ToList();
+        }
     }
 }

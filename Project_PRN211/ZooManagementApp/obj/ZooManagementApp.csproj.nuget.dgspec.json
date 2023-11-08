@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj": {}
+    "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj": {}
   },
   "projects": {
-    "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
+    "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+        "projectUniqueName": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
         "projectName": "BussinessObject",
-        "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\obj\\",
+        "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+        "packagesPath": "C:\\Users\\levie_sutv1l0\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\levie_sutv1l0\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\DataAccess\\DataAccess.csproj": {
+    "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\DataAccess\\obj\\",
+        "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\levie_sutv1l0\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\levie_sutv1l0\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -106,8 +107,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
-                "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\BussinessObject.csproj"
+              "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
+                "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj"
               }
             }
           }
@@ -127,7 +128,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -136,29 +138,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj": {
+    "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj",
+        "projectUniqueName": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj",
         "projectName": "ZooManagementApp",
-        "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\ZooManagementApp\\obj\\",
+        "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\ZooManagementApp\\ZooManagementApp.csproj",
+        "packagesPath": "C:\\Users\\levie_sutv1l0\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\ZooManagementApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\levie_sutv1l0\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -168,11 +170,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
-                "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\BussinessObject\\BussinessObject.csproj"
+              "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
+                "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj"
               },
-              "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Project_PRN211\\Project_PRN211\\DataAccess\\DataAccess.csproj"
+              "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -192,7 +194,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -204,7 +207,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
