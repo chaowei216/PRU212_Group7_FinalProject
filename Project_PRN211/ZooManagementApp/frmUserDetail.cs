@@ -66,7 +66,7 @@ namespace ZooManagementApp
                         CountAnimal = user.CountAnimal,
                         StartDate = user.StartDate,
                         EndDate = null,
-                        Password = "123456"
+                        //Password = "123456"
                     };
                     userRepository.UpdateUser(userObject);
                     this.DialogResult = DialogResult.OK;
@@ -107,7 +107,7 @@ namespace ZooManagementApp
                         CountAnimal = 0,
                         StartDate = DateTime.Now,
                         EndDate = null,
-                        Password = "123456"
+                        //Password = "123456"
                     };
                     userRepository.AddUser(userAdd);
                     this.DialogResult = DialogResult.OK;

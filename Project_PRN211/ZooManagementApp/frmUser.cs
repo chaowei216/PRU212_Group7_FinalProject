@@ -57,7 +57,7 @@ namespace ZooManagementApp
                 txtPhone.DataBindings.Add("Text", source, "Phone");
                 txtRole.DataBindings.Add("Text", source, "Role");
                 txtStartDate.DataBindings.Add("Text", source, "StartDate");
-                txtPassword.DataBindings.Add("Text", source, "Password");
+                //txtPassword.DataBindings.Add("Text", source, "Password");
 
                 dataGridView1.DataSource = null;
                 dataGridView1.DataSource = source;
@@ -110,7 +110,7 @@ namespace ZooManagementApp
                 Role = int.Parse(txtRole.Text),
                 CountAnimal = int.Parse(txtCountAnimal.Text),
                 StartDate = Convert.ToDateTime(txtStartDate.Text),
-                Password = txtPassword.Text,
+                //Password = txtPassword.Text,
                 EndDate = null,
             };
             return user;
