@@ -2206,11 +2206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+      "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
       "projectName": "BussinessObject",
-      "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+      "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
+      "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -135,6 +135,7 @@ namespace ZooManagementApp
                 {
                     txtAnimalId.Text = AnimalInfo.AnimalId;
                     CageInfo = _cageRepository.GetCageByAnimalId(txtAnimalId.Text);
+                    UserInfo = _userRepository.GetTrainerByAnimalId(txtAnimalId.Text);
                     txtName.Text = AnimalInfo.Name;
                     cbRarity.Checked = AnimalInfo.Rarity;
                     cboRegion.Text = AnimalInfo.Region;
@@ -144,8 +145,8 @@ namespace ZooManagementApp
                     cboSpecies.Text = AnimalInfo.SpeciesName;
                     rtbDescription.Text = AnimalInfo.Description;
                     cboHealth.Text = AnimalInfo.HealthCheck;
-                    cboCageList.Text = _cageRepository.GetCageByAnimalId(txtAnimalId.Text).Name;
                     cboCageList.SelectedValue = CageInfo.Cid;
+                    cboTrainer.SelectedValue = UserInfo.UserId;
                     dtpBirthday.Text = AnimalInfo.Birthday.GetDateTimeFormats().First();
                 } catch (Exception ex)
                 {

@@ -134,7 +134,7 @@ namespace DataAccess
                 }
 
                 var u2 = db.Users.FirstOrDefault(u => u.UserId == user.UserId);
-                if (u2 != null && u2.UserId != user.UserId)
+                if (u2 != null && u2.UserId != u.UserId)
                 {
                     u.EndTrainDate = DateTime.Now;
                     db.AnimalTrainers.Update(u);

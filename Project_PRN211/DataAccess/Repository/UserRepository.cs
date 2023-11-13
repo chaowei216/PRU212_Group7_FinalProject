@@ -57,5 +57,7 @@ namespace DataAccess.Repository
         {
             return UserDAO.Instance.UpdateUser(user);
         }
+
+        public User GetTrainerByAnimalId(string animalId) => UserDAO.Instance.GetTrainerByAnimalId(animalId);
     }
 }
