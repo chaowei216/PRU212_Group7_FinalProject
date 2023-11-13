@@ -9,7 +9,7 @@ namespace DataAccess.Repository
 {
     public class AnimalRepository : IAnimalRepository
     {
-        public bool AddNewAnimal(Animal newAnimal) => AnimalDAO.Instance.AddNewAnimal(newAnimal);
+        public bool AddNewAnimal(Animal newAnimal, Cage newCage, User newTrainer) => AnimalDAO.Instance.AddNewAnimal(newAnimal, newCage, newTrainer);
 
         public bool DeleteAnimal(string id) => AnimalDAO.Instance.DeleteAnimal(id);
 
@@ -21,6 +21,6 @@ namespace DataAccess.Repository
 
         public ICollection<Animal> SearchAndFilterAnimalBySpecies(string species, string key) => AnimalDAO.Instance.FilterAndSearchAnimalBySpeices(species, key);
 
-        public bool UpdateAnimal(Animal animal) => AnimalDAO.Instance.UpdateAnimal(animal);
+        public bool UpdateAnimal(Animal animal, Cage cage, User user) => AnimalDAO.Instance.UpdateAnimal(animal, cage, user);
     }
 }

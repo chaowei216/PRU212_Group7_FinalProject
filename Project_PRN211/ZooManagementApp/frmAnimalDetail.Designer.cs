@@ -34,10 +34,9 @@
             this.cboSpecies = new System.Windows.Forms.ComboBox();
             this.cboHealth = new System.Windows.Forms.ComboBox();
             this.lbHealth = new System.Windows.Forms.Label();
-            this.btnAddCage = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboTrainer = new System.Windows.Forms.ComboBox();
             this.lbTrainer = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboCageList = new System.Windows.Forms.ComboBox();
             this.lbCage = new System.Windows.Forms.Label();
             this.cboRegion = new System.Windows.Forms.ComboBox();
             this.cbRarity = new System.Windows.Forms.CheckBox();
@@ -80,10 +79,9 @@
             this.gbAnimalInfo.Controls.Add(this.cboSpecies);
             this.gbAnimalInfo.Controls.Add(this.cboHealth);
             this.gbAnimalInfo.Controls.Add(this.lbHealth);
-            this.gbAnimalInfo.Controls.Add(this.btnAddCage);
-            this.gbAnimalInfo.Controls.Add(this.comboBox2);
+            this.gbAnimalInfo.Controls.Add(this.cboTrainer);
             this.gbAnimalInfo.Controls.Add(this.lbTrainer);
-            this.gbAnimalInfo.Controls.Add(this.comboBox1);
+            this.gbAnimalInfo.Controls.Add(this.cboCageList);
             this.gbAnimalInfo.Controls.Add(this.lbCage);
             this.gbAnimalInfo.Controls.Add(this.cboRegion);
             this.gbAnimalInfo.Controls.Add(this.cbRarity);
@@ -113,6 +111,7 @@
             this.cboSpecies.FormattingEnabled = true;
             this.cboSpecies.Items.AddRange(new object[] {
             "Lion",
+            "Tiger",
             "Rabbit",
             "Monkey",
             "Koala",
@@ -128,6 +127,7 @@
             this.cboSpecies.Name = "cboSpecies";
             this.cboSpecies.Size = new System.Drawing.Size(202, 33);
             this.cboSpecies.TabIndex = 16;
+            this.cboSpecies.SelectedIndexChanged += new System.EventHandler(this.cboSpecies_SelectedIndexChanged);
             // 
             // cboHealth
             // 
@@ -152,22 +152,14 @@
             this.lbHealth.TabIndex = 14;
             this.lbHealth.Text = "Health";
             // 
-            // btnAddCage
+            // cboTrainer
             // 
-            this.btnAddCage.Location = new System.Drawing.Point(384, 349);
-            this.btnAddCage.Name = "btnAddCage";
-            this.btnAddCage.Size = new System.Drawing.Size(136, 32);
-            this.btnAddCage.TabIndex = 13;
-            this.btnAddCage.Text = "Add Cage";
-            this.btnAddCage.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(86, 398);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(269, 33);
-            this.comboBox2.TabIndex = 12;
+            this.cboTrainer.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboTrainer.FormattingEnabled = true;
+            this.cboTrainer.Location = new System.Drawing.Point(86, 398);
+            this.cboTrainer.Name = "cboTrainer";
+            this.cboTrainer.Size = new System.Drawing.Size(269, 33);
+            this.cboTrainer.TabIndex = 12;
             // 
             // lbTrainer
             // 
@@ -178,13 +170,14 @@
             this.lbTrainer.TabIndex = 11;
             this.lbTrainer.Text = "Trainer";
             // 
-            // comboBox1
+            // cboCageList
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(86, 348);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(269, 33);
-            this.comboBox1.TabIndex = 10;
+            this.cboCageList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboCageList.FormattingEnabled = true;
+            this.cboCageList.Location = new System.Drawing.Point(86, 348);
+            this.cboCageList.Name = "cboCageList";
+            this.cboCageList.Size = new System.Drawing.Size(269, 33);
+            this.cboCageList.TabIndex = 10;
             // 
             // lbCage
             // 
@@ -453,11 +446,10 @@
         private Button btnAddFood;
         private Button btnSave;
         private Button btnCancel;
-        private ComboBox comboBox2;
+        private ComboBox cboTrainer;
         private Label lbTrainer;
-        private ComboBox comboBox1;
+        private ComboBox cboCageList;
         private Label lbCage;
-        private Button btnAddCage;
         private Label lbAnimalId;
         private TextBox txtAnimalId;
         private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj": {}
+    "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
+    "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+        "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
         "projectName": "BussinessObject",
-        "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
-        "packagesPath": "C:\\Users\\levie_sutv1l0\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
+        "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\levie_sutv1l0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,24 +74,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj": {
+    "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\levie_sutv1l0\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\obj\\",
+        "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\levie_sutv1l0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,8 +106,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
-                "projectPath": "D:\\PRN211\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj"
+              "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
+                "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\main\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj"
               }
             }
           }
@@ -128,8 +127,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

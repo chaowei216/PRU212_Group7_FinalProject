@@ -24,6 +24,10 @@ namespace DataAccess.Repository
             return CageDAO.Instance.GetAllCages();
         }
 
+        public List<Cage> GetAvailableCagesBySpecies(string species) => CageDAO.Instance.GetAvailableCagesBySpecies(species);
+
+        public Cage? GetCageByAnimalId(string animalId) => CageDAO.Instance.GetCageByAnimalId(animalId);
+
         public Cage GetCageByID(string id)
         {
             return CageDAO.Instance.GetCageByID(id);

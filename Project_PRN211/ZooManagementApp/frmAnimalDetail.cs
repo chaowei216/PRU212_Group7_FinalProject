@@ -14,6 +14,8 @@ namespace ZooManagementApp
 {
     public partial class frmAnimalDetail : Form
     {
+        ICageRepository _cageRepository = new CageRepository();
+        IUserRepository _userRepository = new UserRepository();
         public frmAnimalDetail()
         {
             InitializeComponent();
@@ -22,6 +24,8 @@ namespace ZooManagementApp
         public bool InsertOrUpdate { get; set; }
         public IAnimalRepository AnimalRepository { get; set; }
         public Animal AnimalInfo { get; set; }
+        public Cage CageInfo { get; set; }
+        public User UserInfo { get; set; }
 
         private void EnableText(bool status)
         {
@@ -42,6 +46,34 @@ namespace ZooManagementApp
             cboHealth.Enabled = status;
             dtpBirthday.Enabled = !status;
             btnSave.Enabled = false;
+        }
+
+        public void LoadCageList()
+        {
+            try
+            {
+                var cages = _cageRepository.GetAvailableCagesBySpecies(cboSpecies.Text);
+                cboCageList.DataSource = cages;
+                cboCageList.DisplayMember = "Name";
+                cboCageList.ValueMember = "Cid";
+            } catch(Exception ex)
+            {
+                MessageBox.Show("Error on load list of cages", "Create or Update animal");
+            }
+        }
+
+        public void LoadTrainerList()
+        {
+            try
+            {
+                var trainers = _userRepository.GetUsersByRole(3);
+                cboTrainer.DataSource = trainers;
+                cboTrainer.DisplayMember = "LastName";
+                cboTrainer.ValueMember = "UserId";
+            } catch (Exception ex)
+            {
+                MessageBox.Show("Error on load list of trainers", "Animal Management");
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -71,15 +103,18 @@ namespace ZooManagementApp
                         Region = cboRegion.Text,
                     };
 
+                    Cage cage = _cageRepository.GetCageByID(cboCageList.SelectedValue.ToString());
+                    User trainer = _userRepository.GetUserByID(cboTrainer.SelectedValue.ToString());
+
                     if (!InsertOrUpdate)
                     {
-                        AnimalRepository.AddNewAnimal(animal);
+                        AnimalRepository.AddNewAnimal(animal, cage, trainer);
                         MessageBox.Show("Add Successfully", "Add Animal", MessageBoxButtons.OK);
                     }
                     else
                     {
                         animal.AnimalId = txtAnimalId.Text;
-                        AnimalRepository.UpdateAnimal(animal);
+                        AnimalRepository.UpdateAnimal(animal, cage, trainer);
                         MessageBox.Show("Update Successfully", "Update Animal", MessageBoxButtons.OK);
                     }
                 }
@@ -93,19 +128,30 @@ namespace ZooManagementApp
         private void frmAnimalDetail_Load(object sender, EventArgs e)
         {
             EnableText(InsertOrUpdate);
+            LoadTrainerList();
             if (InsertOrUpdate)
             {
-                txtAnimalId.Text = AnimalInfo.AnimalId;
-                txtName.Text = AnimalInfo.Name;
-                cbRarity.Checked = AnimalInfo.Rarity;
-                cboRegion.Text = AnimalInfo.Region;
-                if (AnimalInfo.Status)
-                    rbFemale.Checked = true;
-                else rbMale.Checked = true;
-                cboSpecies.Text = AnimalInfo.SpeciesName;
-                rtbDescription.Text = AnimalInfo.Description;
-                cboHealth.Text = AnimalInfo.HealthCheck;
-                dtpBirthday.Text = AnimalInfo.Birthday.GetDateTimeFormats().First();
+                try
+                {
+                    txtAnimalId.Text = AnimalInfo.AnimalId;
+                    CageInfo = _cageRepository.GetCageByAnimalId(txtAnimalId.Text);
+                    txtName.Text = AnimalInfo.Name;
+                    cbRarity.Checked = AnimalInfo.Rarity;
+                    cboRegion.Text = AnimalInfo.Region;
+                    if (AnimalInfo.Status)
+                        rbFemale.Checked = true;
+                    else rbMale.Checked = true;
+                    cboSpecies.Text = AnimalInfo.SpeciesName;
+                    rtbDescription.Text = AnimalInfo.Description;
+                    cboHealth.Text = AnimalInfo.HealthCheck;
+                    cboCageList.Text = _cageRepository.GetCageByAnimalId(txtAnimalId.Text).Name;
+                    cboCageList.SelectedValue = CageInfo.Cid;
+                    dtpBirthday.Text = AnimalInfo.Birthday.GetDateTimeFormats().First();
+                } catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
             }
         }
 
@@ -195,6 +241,11 @@ namespace ZooManagementApp
             {
                 errorProvider1.SetError(dtpBirthday, "");
             }
+        }
+
+        private void cboSpecies_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadCageList();
         }
     }
 }

@@ -149,6 +149,7 @@ namespace ZooManagementApp
         private void frmAnimals_Load(object sender, EventArgs e)
         {
             EnableText(false);
+            cboHealthCheck.SelectedIndex = 0;
             cboFilter.SelectedIndex = 0;
             LoadAnimalList();
         }
