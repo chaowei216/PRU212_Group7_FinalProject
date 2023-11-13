@@ -12,9 +12,15 @@ namespace ZooManagementApp
 {
     public partial class frmFood : Form
     {
+        private readonly string _role;
+        private readonly string _email;
         public frmFood()
         {
             InitializeComponent();
         }
+        public frmFood(string role, string email) :this(){
+            _email = email;
+            _role = role;
+            }
     }
 }

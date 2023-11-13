@@ -16,9 +16,16 @@ namespace ZooManagementApp
     {
         ICageRepository cageRepository = new CageRepository();
         BindingSource source = new BindingSource();
+        private readonly string _role;
+        private readonly string _email;
         public frmCage()
         {
             InitializeComponent();
+        }
+        public frmCage(string role, string email): this()
+        {
+            _email = email;
+            _role = role;
         }
 
         private void btnLoad_Click(object sender, EventArgs e)

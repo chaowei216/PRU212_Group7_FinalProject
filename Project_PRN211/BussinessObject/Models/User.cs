@@ -22,6 +22,7 @@ namespace BussinessObject.Models
         public bool Status { get; set; }
         public int Role { get; set; }
         public int CountAnimal { get; set; }
+        public string Password { get; set; } = null!;
 
         public virtual ICollection<AnimalTrainer> AnimalTrainers { get; set; }
     }

@@ -16,9 +16,16 @@ namespace ZooManagementApp
     {
         IAnimalRepository animalRepo = new AnimalRepository();
         BindingSource source = new BindingSource();
+        private readonly string _role;
+        private readonly string _email;
         public frmAnimals()
         {
             InitializeComponent();
+        }
+        public frmAnimals(string role, string email): this()
+        {
+            _role = role;
+                _email = email;
         }
 
         private void btnExit_Click(object sender, EventArgs e)

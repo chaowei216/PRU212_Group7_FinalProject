@@ -1,5 +1,6 @@
 ﻿using BussinessObject.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
@@ -28,10 +29,35 @@ namespace DataAccess
                 return instance;
             }
         }
-        public User CheckLogin(string email, string password)
+      /*  public User CheckLogin(string email, string password)
         {
             using var db = new ZooManagementFormContext();
             return db.Users.Where(m => m.Email.Equals(email)).FirstOrDefault();
+        } */
+        public User CheckLogin(string email, string password)
+        {
+            IConfiguration config = new ConfigurationBuilder()
+                   .SetBasePath(Directory.GetCurrentDirectory())
+                   .AddJsonFile("appsettings.json", true, true)
+                   .Build();
+            var adminUser = config["AdminAccount:Email"];
+            var adminPassword = config["AdminAccount:Password"];
+            ZooManagementFormContext context = new ZooManagementFormContext();
+            if (email == adminUser && password == adminPassword)
+            {
+                return new User
+                {
+                    UserId = "",
+                    Email = email,
+                    Password = password,
+                    Role = 1
+                };
+            }
+            else
+            {
+                return context.Users.SingleOrDefault(m => m.Email.Equals(email)
+                && m.Password.Equals(password));
+            }
         }
         public List<User> GetUsers()
         {

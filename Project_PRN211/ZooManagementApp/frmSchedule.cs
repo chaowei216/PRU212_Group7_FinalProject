@@ -12,9 +12,17 @@ namespace ZooManagementApp
 {
     public partial class frmSchedule : Form
     {
+        private readonly string _role;
+        private readonly string _email;
         public frmSchedule()
         {
             InitializeComponent();
+        }
+        public frmSchedule( string role, string email) :this ()
+        {
+         
+            _role=role;
+            _email=email;
         }
     }
 }

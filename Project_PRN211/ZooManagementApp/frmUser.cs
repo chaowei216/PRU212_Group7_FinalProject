@@ -16,9 +16,20 @@ namespace ZooManagementApp
     {
         IUserRepository userRepository = new UserRepository();
         BindingSource source = new BindingSource();
-        public frmUser()
+        private readonly string _role;
+        private readonly string _email;
+        public frmUser(string v)
         {
             InitializeComponent();
+        }
+        public frmUser(string role, string email) : this()
+        {
+            _role = role;
+            _email = email;
+        }
+
+        public frmUser()
+        {
         }
 
         private void btnLoad_Click(object sender, EventArgs e)

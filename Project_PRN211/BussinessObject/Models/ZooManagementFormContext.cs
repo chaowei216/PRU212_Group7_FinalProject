@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.Extensions.Configuration;
 
 namespace BussinessObject.Models
 {
@@ -17,7 +16,6 @@ namespace BussinessObject.Models
         {
         }
 
-
         public virtual DbSet<Animal> Animals { get; set; } = null!;
         public virtual DbSet<AnimalCage> AnimalCages { get; set; } = null!;
         public virtual DbSet<AnimalFood> AnimalFoods { get; set; } = null!;
@@ -29,20 +27,13 @@ namespace BussinessObject.Models
         public virtual DbSet<Schedule> Schedules { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
-        private string GetConnectionString()
-        {
-            IConfiguration config = new ConfigurationBuilder()
-                 .SetBasePath(Directory.GetCurrentDirectory())
-                        .AddJsonFile("appsettings.json", true, true)
-                        .Build();
-            var strConn = config["ConnectionStrings:DefaultConnectionStringDB"];
-
-            return strConn;
-        }
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(GetConnectionString());
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("server =(local); database = ZooManagementForm;uid=sa;pwd=123;TrustServerCertificate=True;");
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -183,6 +174,8 @@ namespace BussinessObject.Models
                 entity.Property(e => e.Firstname).HasMaxLength(10);
 
                 entity.Property(e => e.Lastname).HasMaxLength(10);
+
+                entity.Property(e => e.Password).HasMaxLength(30);
 
                 entity.Property(e => e.Phone).HasMaxLength(10);
             });
