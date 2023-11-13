@@ -10,6 +10,8 @@ namespace DataAccess.Repository
     public interface ICageRepository
     {
         public List<Cage> GetAllCages();
+        public List<Cage> GetAvailableCagesBySpecies(string species);
+        public Cage? GetCageByAnimalId(string animalId);
         public Cage GetCageByID(string id);
         public Cage GetCageByName(string name);
         public void AddCage(Cage cage);

@@ -13,8 +13,8 @@ namespace DataAccess.Repository
         ICollection<Animal> GetAnimals();
         ICollection<Animal> SearchAndFilterAnimalBySpecies(string species, string key);
         ICollection<Animal> GetAvailableAnimals();
-        bool AddNewAnimal(Animal animal);
+        bool AddNewAnimal(Animal animal, Cage cage, User trainer);
         bool DeleteAnimal(string id);
-        bool UpdateAnimal(Animal newAnimal);
+        bool UpdateAnimal(Animal newAnimal, Cage newCage, User newUser);
     }
 }

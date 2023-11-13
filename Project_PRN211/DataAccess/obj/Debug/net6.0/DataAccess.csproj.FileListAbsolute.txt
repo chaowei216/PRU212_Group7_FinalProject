@@ -30,6 +30,7 @@ D:\PRN211\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.d
 D:\PRN211\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 D:\PRN211\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\PRN211\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+<<<<<<< HEAD
 D:\c#ne\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\appsettings.json
 D:\c#ne\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
 D:\c#ne\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.dll
@@ -46,3 +47,37 @@ D:\c#ne\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.dll
 D:\c#ne\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 D:\c#ne\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\c#ne\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+=======
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\appsettings.json
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\BussinessObject.dll
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\BussinessObject.pdb
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\appsettings.json
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\BussinessObject.dll
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\BussinessObject.pdb
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+>>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c

@@ -98,7 +98,9 @@
             this.speciesNameDataGridViewTextBoxColumn});
             this.dgvAnimalList.DataSource = this.animalBindingSource1;
             this.dgvAnimalList.Location = new System.Drawing.Point(34, 293);
+            this.dgvAnimalList.MultiSelect = false;
             this.dgvAnimalList.Name = "dgvAnimalList";
+            this.dgvAnimalList.ReadOnly = true;
             this.dgvAnimalList.RowHeadersVisible = false;
             this.dgvAnimalList.RowHeadersWidth = 51;
             this.dgvAnimalList.RowTemplate.Height = 29;
@@ -401,7 +403,12 @@
             // 
             // cboHealthCheck
             // 
+            this.cboHealthCheck.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboHealthCheck.FormattingEnabled = true;
+            this.cboHealthCheck.Items.AddRange(new object[] {
+            "Normal",
+            "Sickness",
+            "Be in treatment"});
             this.cboHealthCheck.Location = new System.Drawing.Point(552, 160);
             this.cboHealthCheck.Name = "cboHealthCheck";
             this.cboHealthCheck.Size = new System.Drawing.Size(215, 28);

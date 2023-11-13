@@ -31,11 +31,31 @@ namespace DataAccess
             using var db = new ZooManagementFormContext();
             return db.Cages.ToList();
         }
+
+        public List<Cage> GetAvailableCagesBySpecies(string species)
+        {
+            using var db = new ZooManagementFormContext();
+            return db.Cages.Where(c => c.Name.Trim().ToLower().Equals(species.Trim().ToLower())).ToList();
+        }
         public Cage GetCageByID(string id)
         {
             List<Cage> cages = GetAllCages();
             Cage cage = cages.Where(c => c.Cid.Equals(id)).FirstOrDefault();
             return cage;
+        }
+
+        public Cage GetCageByAnimalId(string animalId)
+        {
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                var animalCage = db.AnimalCages.FirstOrDefault(ac => ac.AnimalId == animalId && ac.OutCageDate == null);
+                return GetCageByID(animalCage.CageId);
+            } catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
         }
         public Cage GetCageByName(string name)
         {

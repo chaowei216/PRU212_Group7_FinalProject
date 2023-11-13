@@ -95,6 +95,20 @@ namespace DataAccess
             }
             return listUserByRole;
         }
+
+        public User GetTrainerByAnimalId(string id)
+        {
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                var animalTrainer = db.AnimalTrainers.FirstOrDefault(ac => ac.AnimalId == id && ac.EndTrainDate == null);
+                return GetUserByID(animalTrainer.UserId);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
         public void AddUser(User user)
         {
             try
