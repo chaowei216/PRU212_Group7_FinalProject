@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
 namespace BussinessObject.Models
 {
@@ -27,6 +28,13 @@ namespace BussinessObject.Models
         public virtual DbSet<Schedule> Schedules { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
+        private string GetConnectionString()
+        {
+            IConfiguration configuration = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", true, true).Build();
+            return configuration["ConnectionStrings:DBDefault"];
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\c#ne\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "D:\\c#ne\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
         "packagesPath": "C:\\Users\\triho\\.nuget\\packages\\",
         "outputPath": "D:\\c#ne\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
-=======
-    "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {}
-  },
-  "projects": {
-    "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
-        "projectName": "BussinessObject",
-        "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\triho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -93,11 +76,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
         }
       }
     }

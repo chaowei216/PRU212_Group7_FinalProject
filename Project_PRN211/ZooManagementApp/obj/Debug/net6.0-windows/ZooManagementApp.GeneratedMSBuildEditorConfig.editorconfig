@@ -11,10 +11,7 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ZooManagementApp
-<<<<<<< HEAD
 build_property.ProjectDir = D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\
-=======
-build_property.ProjectDir = D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
