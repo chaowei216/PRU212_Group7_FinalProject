@@ -16,16 +16,10 @@ namespace ZooManagementApp
     {
         ICageRepository cageRepository = new CageRepository();
         BindingSource source = new BindingSource();
-        private readonly string _role;
-        private readonly string _email;
+        public User User { get; set; }
         public frmCage()
         {
             InitializeComponent();
-        }
-        public frmCage(string role, string email): this()
-        {
-            _email = email;
-            _role = role;
         }
 
         private void btnLoad_Click(object sender, EventArgs e)
@@ -103,8 +97,6 @@ namespace ZooManagementApp
 
         private void frmCage_Load(object sender, EventArgs e)
         {
-            this.Left = (Screen.PrimaryScreen.Bounds.Width - this.Width) / 2;
-            this.Top = (Screen.PrimaryScreen.Bounds.Height - this.Height) / 2;
             txtID.Enabled = false;
             txtName.Enabled = false;
             txtCapacity.Enabled = false;

@@ -56,7 +56,8 @@ namespace ZooManagementApp
                 cboCageList.DataSource = cages;
                 cboCageList.DisplayMember = "Name";
                 cboCageList.ValueMember = "Cid";
-            } catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show("Error on load list of cages", "Create or Update animal");
             }
@@ -70,7 +71,8 @@ namespace ZooManagementApp
                 cboTrainer.DataSource = trainers;
                 cboTrainer.DisplayMember = "LastName";
                 cboTrainer.ValueMember = "UserId";
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show("Error on load list of trainers", "Animal Management");
             }
@@ -83,11 +85,12 @@ namespace ZooManagementApp
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if(txtName.Text == "" || cboSpecies.Text == ""
+            if (txtName.Text == "" || cboSpecies.Text == ""
                 || cboRegion.Text == "" || rtbDescription.Text == "")
             {
                 MessageBox.Show("Please enter fullfield before saving", "Add/Update animal", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            } else
+            }
+            else
             {
                 try
                 {
@@ -148,7 +151,8 @@ namespace ZooManagementApp
                     cboCageList.SelectedValue = CageInfo.Cid;
                     cboTrainer.SelectedValue = UserInfo.UserId;
                     dtpBirthday.Text = AnimalInfo.Birthday.GetDateTimeFormats().First();
-                } catch (Exception ex)
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
@@ -158,11 +162,12 @@ namespace ZooManagementApp
 
         private void txtName_TextChanged(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(txtName.Text) || txtName.Text.Length == 0)
+            if (string.IsNullOrEmpty(txtName.Text) || txtName.Text.Length == 0)
             {
                 errorProvider1.SetError(txtName, "Please enter name!");
                 btnSave.Enabled = false;
-            } else
+            }
+            else
             {
                 errorProvider1.SetError(txtName, "");
                 btnSave.Enabled = true;
@@ -171,7 +176,7 @@ namespace ZooManagementApp
 
         private void txtSpecies_TextChanged(object sender, EventArgs e)
         {
-            if(!InsertOrUpdate)
+            if (!InsertOrUpdate)
             {
                 if (string.IsNullOrEmpty(cboSpecies.Text) || cboSpecies.Text.Length == 0)
                 {
@@ -188,13 +193,14 @@ namespace ZooManagementApp
 
         private void cboRegion_TextChanged(object sender, EventArgs e)
         {
-            if(!InsertOrUpdate)
+            if (!InsertOrUpdate)
             {
                 if (string.IsNullOrEmpty(cboRegion.Text) || cboRegion.Text.Length == 0)
                 {
                     errorProvider1.SetError(cboRegion, "Please choose region!");
                     btnSave.Enabled = false;
-                } else
+                }
+                else
                 {
                     errorProvider1.SetError(cboRegion, "");
                 }
@@ -203,7 +209,7 @@ namespace ZooManagementApp
 
         private void cboHealth_TextChanged(object sender, EventArgs e)
         {
-            if(!InsertOrUpdate)
+            if (!InsertOrUpdate)
             {
                 if (string.IsNullOrEmpty(cboHealth.Text) || cboHealth.Text.Length == 0)
                 {
@@ -234,11 +240,12 @@ namespace ZooManagementApp
 
         private void dtpBirthday_ValueChanged(object sender, EventArgs e)
         {
-            if(dtpBirthday.Value > DateTime.Now)
+            if (dtpBirthday.Value > DateTime.Now)
             {
                 errorProvider1.SetError(dtpBirthday, "Please enter date before today");
-                btnSave.Enabled=false;
-            } else
+                btnSave.Enabled = false;
+            }
+            else
             {
                 errorProvider1.SetError(dtpBirthday, "");
             }
@@ -247,6 +254,15 @@ namespace ZooManagementApp
         private void cboSpecies_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadCageList();
+        }
+
+        private void btnAddFood_Click(object sender, EventArgs e)
+        {
+            frmAnimalFood f = new frmAnimalFood
+            {
+                Animal = AnimalInfo
+            };
+            f.Show();
         }
     }
 }

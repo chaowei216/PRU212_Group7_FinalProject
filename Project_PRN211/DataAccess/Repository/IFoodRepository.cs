@@ -14,6 +14,10 @@ namespace DataAccess.Repository
         bool AddNewFood(Food newFood);
         bool DeleteFood(string id);
         bool UpdateFood(Food newFood);
-
+        List<Food> SearchFoodByName(string name);
+        List<AnimalFood> GetFoodOfAnimal(string animalId);
+        bool AddFoodForAnimal(AnimalFood af);
+        bool DeleteFoodForAnimal(AnimalFood af);
+        bool UpdateFoodForAnimal(AnimalFood af);
     }
 }

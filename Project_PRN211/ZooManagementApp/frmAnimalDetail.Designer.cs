@@ -28,400 +28,394 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.lbAnimalDetail = new System.Windows.Forms.Label();
-            this.gbAnimalInfo = new System.Windows.Forms.GroupBox();
-            this.cboSpecies = new System.Windows.Forms.ComboBox();
-            this.cboHealth = new System.Windows.Forms.ComboBox();
-            this.lbHealth = new System.Windows.Forms.Label();
-            this.cboTrainer = new System.Windows.Forms.ComboBox();
-            this.lbTrainer = new System.Windows.Forms.Label();
-            this.cboCageList = new System.Windows.Forms.ComboBox();
-            this.lbCage = new System.Windows.Forms.Label();
-            this.cboRegion = new System.Windows.Forms.ComboBox();
-            this.cbRarity = new System.Windows.Forms.CheckBox();
-            this.rbFemale = new System.Windows.Forms.RadioButton();
-            this.rbMale = new System.Windows.Forms.RadioButton();
-            this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
-            this.rtbDescription = new System.Windows.Forms.RichTextBox();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lbRarity = new System.Windows.Forms.Label();
-            this.lbDescription = new System.Windows.Forms.Label();
-            this.lbRegion = new System.Windows.Forms.Label();
-            this.lbSex = new System.Windows.Forms.Label();
-            this.lbSpecies = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbAnimalName = new System.Windows.Forms.Label();
-            this.btnAddSchedule = new System.Windows.Forms.Button();
-            this.btnAddFood = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.lbAnimalId = new System.Windows.Forms.Label();
-            this.txtAnimalId = new System.Windows.Forms.TextBox();
-            this.sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.gbAnimalInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            lbAnimalDetail = new Label();
+            gbAnimalInfo = new GroupBox();
+            cboSpecies = new ComboBox();
+            cboHealth = new ComboBox();
+            lbHealth = new Label();
+            cboTrainer = new ComboBox();
+            lbTrainer = new Label();
+            cboCageList = new ComboBox();
+            lbCage = new Label();
+            cboRegion = new ComboBox();
+            cbRarity = new CheckBox();
+            rbFemale = new RadioButton();
+            rbMale = new RadioButton();
+            dtpBirthday = new DateTimePicker();
+            rtbDescription = new RichTextBox();
+            txtName = new TextBox();
+            lbRarity = new Label();
+            lbDescription = new Label();
+            lbRegion = new Label();
+            lbSex = new Label();
+            lbSpecies = new Label();
+            label1 = new Label();
+            lbAnimalName = new Label();
+            btnAddSchedule = new Button();
+            btnAddFood = new Button();
+            btnSave = new Button();
+            btnCancel = new Button();
+            lbAnimalId = new Label();
+            txtAnimalId = new TextBox();
+            sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
+            errorProvider1 = new ErrorProvider(components);
+            gbAnimalInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
+            SuspendLayout();
             // 
             // lbAnimalDetail
             // 
-            this.lbAnimalDetail.AutoSize = true;
-            this.lbAnimalDetail.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbAnimalDetail.Location = new System.Drawing.Point(300, 28);
-            this.lbAnimalDetail.Name = "lbAnimalDetail";
-            this.lbAnimalDetail.Size = new System.Drawing.Size(197, 38);
-            this.lbAnimalDetail.TabIndex = 0;
-            this.lbAnimalDetail.Text = "Animal Detail";
+            lbAnimalDetail.AutoSize = true;
+            lbAnimalDetail.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            lbAnimalDetail.Location = new Point(262, 21);
+            lbAnimalDetail.Name = "lbAnimalDetail";
+            lbAnimalDetail.Size = new Size(152, 30);
+            lbAnimalDetail.TabIndex = 0;
+            lbAnimalDetail.Text = "Animal Detail";
             // 
             // gbAnimalInfo
             // 
-            this.gbAnimalInfo.Controls.Add(this.cboSpecies);
-            this.gbAnimalInfo.Controls.Add(this.cboHealth);
-            this.gbAnimalInfo.Controls.Add(this.lbHealth);
-            this.gbAnimalInfo.Controls.Add(this.cboTrainer);
-            this.gbAnimalInfo.Controls.Add(this.lbTrainer);
-            this.gbAnimalInfo.Controls.Add(this.cboCageList);
-            this.gbAnimalInfo.Controls.Add(this.lbCage);
-            this.gbAnimalInfo.Controls.Add(this.cboRegion);
-            this.gbAnimalInfo.Controls.Add(this.cbRarity);
-            this.gbAnimalInfo.Controls.Add(this.rbFemale);
-            this.gbAnimalInfo.Controls.Add(this.rbMale);
-            this.gbAnimalInfo.Controls.Add(this.dtpBirthday);
-            this.gbAnimalInfo.Controls.Add(this.rtbDescription);
-            this.gbAnimalInfo.Controls.Add(this.txtName);
-            this.gbAnimalInfo.Controls.Add(this.lbRarity);
-            this.gbAnimalInfo.Controls.Add(this.lbDescription);
-            this.gbAnimalInfo.Controls.Add(this.lbRegion);
-            this.gbAnimalInfo.Controls.Add(this.lbSex);
-            this.gbAnimalInfo.Controls.Add(this.lbSpecies);
-            this.gbAnimalInfo.Controls.Add(this.label1);
-            this.gbAnimalInfo.Controls.Add(this.lbAnimalName);
-            this.gbAnimalInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.gbAnimalInfo.Location = new System.Drawing.Point(42, 82);
-            this.gbAnimalInfo.Name = "gbAnimalInfo";
-            this.gbAnimalInfo.Size = new System.Drawing.Size(689, 457);
-            this.gbAnimalInfo.TabIndex = 1;
-            this.gbAnimalInfo.TabStop = false;
-            this.gbAnimalInfo.Text = "Animal Infomation";
+            gbAnimalInfo.Controls.Add(cboSpecies);
+            gbAnimalInfo.Controls.Add(cboHealth);
+            gbAnimalInfo.Controls.Add(lbHealth);
+            gbAnimalInfo.Controls.Add(cboTrainer);
+            gbAnimalInfo.Controls.Add(lbTrainer);
+            gbAnimalInfo.Controls.Add(cboCageList);
+            gbAnimalInfo.Controls.Add(lbCage);
+            gbAnimalInfo.Controls.Add(cboRegion);
+            gbAnimalInfo.Controls.Add(cbRarity);
+            gbAnimalInfo.Controls.Add(rbFemale);
+            gbAnimalInfo.Controls.Add(rbMale);
+            gbAnimalInfo.Controls.Add(dtpBirthday);
+            gbAnimalInfo.Controls.Add(rtbDescription);
+            gbAnimalInfo.Controls.Add(txtName);
+            gbAnimalInfo.Controls.Add(lbRarity);
+            gbAnimalInfo.Controls.Add(lbDescription);
+            gbAnimalInfo.Controls.Add(lbRegion);
+            gbAnimalInfo.Controls.Add(lbSex);
+            gbAnimalInfo.Controls.Add(lbSpecies);
+            gbAnimalInfo.Controls.Add(label1);
+            gbAnimalInfo.Controls.Add(lbAnimalName);
+            gbAnimalInfo.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            gbAnimalInfo.Location = new Point(37, 62);
+            gbAnimalInfo.Margin = new Padding(3, 2, 3, 2);
+            gbAnimalInfo.Name = "gbAnimalInfo";
+            gbAnimalInfo.Padding = new Padding(3, 2, 3, 2);
+            gbAnimalInfo.Size = new Size(603, 343);
+            gbAnimalInfo.TabIndex = 1;
+            gbAnimalInfo.TabStop = false;
+            gbAnimalInfo.Text = "Animal Infomation";
             // 
             // cboSpecies
             // 
-            this.cboSpecies.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboSpecies.FormattingEnabled = true;
-            this.cboSpecies.Items.AddRange(new object[] {
-            "Lion",
-            "Tiger",
-            "Rabbit",
-            "Monkey",
-            "Koala",
-            "Bird",
-            "Leopard",
-            "Elephant",
-            "Crocodile",
-            "Butterfly",
-            "Snake",
-            "Turtle",
-            "Dog"});
-            this.cboSpecies.Location = new System.Drawing.Point(153, 83);
-            this.cboSpecies.Name = "cboSpecies";
-            this.cboSpecies.Size = new System.Drawing.Size(202, 33);
-            this.cboSpecies.TabIndex = 16;
-            this.cboSpecies.SelectedIndexChanged += new System.EventHandler(this.cboSpecies_SelectedIndexChanged);
+            cboSpecies.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboSpecies.FormattingEnabled = true;
+            cboSpecies.Items.AddRange(new object[] { "Lion", "Tiger", "Rabbit", "Monkey", "Koala", "Bird", "Leopard", "Elephant", "Crocodile", "Butterfly", "Snake", "Turtle", "Dog" });
+            cboSpecies.Location = new Point(134, 62);
+            cboSpecies.Margin = new Padding(3, 2, 3, 2);
+            cboSpecies.Name = "cboSpecies";
+            cboSpecies.Size = new Size(177, 27);
+            cboSpecies.TabIndex = 16;
+            cboSpecies.SelectedIndexChanged += cboSpecies_SelectedIndexChanged;
             // 
             // cboHealth
             // 
-            this.cboHealth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboHealth.FormattingEnabled = true;
-            this.cboHealth.Items.AddRange(new object[] {
-            "Normal",
-            "Sickness",
-            "Be in treatment"});
-            this.cboHealth.Location = new System.Drawing.Point(484, 197);
-            this.cboHealth.Name = "cboHealth";
-            this.cboHealth.Size = new System.Drawing.Size(185, 33);
-            this.cboHealth.TabIndex = 15;
-            this.cboHealth.TextChanged += new System.EventHandler(this.cboHealth_TextChanged);
+            cboHealth.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboHealth.FormattingEnabled = true;
+            cboHealth.Items.AddRange(new object[] { "Normal", "Sickness", "Be in treatment" });
+            cboHealth.Location = new Point(424, 148);
+            cboHealth.Margin = new Padding(3, 2, 3, 2);
+            cboHealth.Name = "cboHealth";
+            cboHealth.Size = new Size(162, 27);
+            cboHealth.TabIndex = 15;
+            cboHealth.TextChanged += cboHealth_TextChanged;
             // 
             // lbHealth
             // 
-            this.lbHealth.AutoSize = true;
-            this.lbHealth.Location = new System.Drawing.Point(384, 205);
-            this.lbHealth.Name = "lbHealth";
-            this.lbHealth.Size = new System.Drawing.Size(66, 25);
-            this.lbHealth.TabIndex = 14;
-            this.lbHealth.Text = "Health";
+            lbHealth.AutoSize = true;
+            lbHealth.Location = new Point(336, 154);
+            lbHealth.Name = "lbHealth";
+            lbHealth.Size = new Size(54, 20);
+            lbHealth.TabIndex = 14;
+            lbHealth.Text = "Health";
             // 
             // cboTrainer
             // 
-            this.cboTrainer.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboTrainer.FormattingEnabled = true;
-            this.cboTrainer.Location = new System.Drawing.Point(86, 398);
-            this.cboTrainer.Name = "cboTrainer";
-            this.cboTrainer.Size = new System.Drawing.Size(269, 33);
-            this.cboTrainer.TabIndex = 12;
+            cboTrainer.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboTrainer.FormattingEnabled = true;
+            cboTrainer.Location = new Point(75, 298);
+            cboTrainer.Margin = new Padding(3, 2, 3, 2);
+            cboTrainer.Name = "cboTrainer";
+            cboTrainer.Size = new Size(236, 27);
+            cboTrainer.TabIndex = 12;
             // 
             // lbTrainer
             // 
-            this.lbTrainer.AutoSize = true;
-            this.lbTrainer.Location = new System.Drawing.Point(6, 406);
-            this.lbTrainer.Name = "lbTrainer";
-            this.lbTrainer.Size = new System.Drawing.Size(70, 25);
-            this.lbTrainer.TabIndex = 11;
-            this.lbTrainer.Text = "Trainer";
+            lbTrainer.AutoSize = true;
+            lbTrainer.Location = new Point(5, 304);
+            lbTrainer.Name = "lbTrainer";
+            lbTrainer.Size = new Size(57, 20);
+            lbTrainer.TabIndex = 11;
+            lbTrainer.Text = "Trainer";
             // 
             // cboCageList
             // 
-            this.cboCageList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboCageList.FormattingEnabled = true;
-            this.cboCageList.Location = new System.Drawing.Point(86, 348);
-            this.cboCageList.Name = "cboCageList";
-            this.cboCageList.Size = new System.Drawing.Size(269, 33);
-            this.cboCageList.TabIndex = 10;
+            cboCageList.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboCageList.FormattingEnabled = true;
+            cboCageList.Location = new Point(75, 261);
+            cboCageList.Margin = new Padding(3, 2, 3, 2);
+            cboCageList.Name = "cboCageList";
+            cboCageList.Size = new Size(236, 27);
+            cboCageList.TabIndex = 10;
             // 
             // lbCage
             // 
-            this.lbCage.AutoSize = true;
-            this.lbCage.Location = new System.Drawing.Point(6, 356);
-            this.lbCage.Name = "lbCage";
-            this.lbCage.Size = new System.Drawing.Size(53, 25);
-            this.lbCage.TabIndex = 9;
-            this.lbCage.Text = "Cage";
+            lbCage.AutoSize = true;
+            lbCage.Location = new Point(5, 267);
+            lbCage.Name = "lbCage";
+            lbCage.Size = new Size(43, 20);
+            lbCage.TabIndex = 9;
+            lbCage.Text = "Cage";
             // 
             // cboRegion
             // 
-            this.cboRegion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboRegion.FormattingEnabled = true;
-            this.cboRegion.Items.AddRange(new object[] {
-            "Africa",
-            "Asia",
-            "Europe",
-            "Oceania",
-            "Americas",
-            "Middle East",
-            "East Asia",
-            "Caribean",
-            "South Pole"});
-            this.cboRegion.Location = new System.Drawing.Point(153, 140);
-            this.cboRegion.Name = "cboRegion";
-            this.cboRegion.Size = new System.Drawing.Size(202, 33);
-            this.cboRegion.TabIndex = 8;
-            this.cboRegion.TextChanged += new System.EventHandler(this.cboRegion_TextChanged);
+            cboRegion.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboRegion.FormattingEnabled = true;
+            cboRegion.Items.AddRange(new object[] { "Africa", "Asia", "Europe", "Oceania", "Americas", "Middle East", "East Asia", "Caribean", "South Pole" });
+            cboRegion.Location = new Point(134, 105);
+            cboRegion.Margin = new Padding(3, 2, 3, 2);
+            cboRegion.Name = "cboRegion";
+            cboRegion.Size = new Size(177, 27);
+            cboRegion.TabIndex = 8;
+            cboRegion.TextChanged += cboRegion_TextChanged;
             // 
             // cbRarity
             // 
-            this.cbRarity.AutoSize = true;
-            this.cbRarity.Location = new System.Drawing.Point(484, 144);
-            this.cbRarity.Name = "cbRarity";
-            this.cbRarity.Size = new System.Drawing.Size(95, 29);
-            this.cbRarity.TabIndex = 7;
-            this.cbRarity.Text = "isRarity";
-            this.cbRarity.UseVisualStyleBackColor = true;
+            cbRarity.AutoSize = true;
+            cbRarity.Location = new Point(424, 108);
+            cbRarity.Margin = new Padding(3, 2, 3, 2);
+            cbRarity.Name = "cbRarity";
+            cbRarity.Size = new Size(78, 24);
+            cbRarity.TabIndex = 7;
+            cbRarity.Text = "isRarity";
+            cbRarity.UseVisualStyleBackColor = true;
             // 
             // rbFemale
             // 
-            this.rbFemale.AutoSize = true;
-            this.rbFemale.Location = new System.Drawing.Point(577, 84);
-            this.rbFemale.Name = "rbFemale";
-            this.rbFemale.Size = new System.Drawing.Size(92, 29);
-            this.rbFemale.TabIndex = 5;
-            this.rbFemale.TabStop = true;
-            this.rbFemale.Text = "Female";
-            this.rbFemale.UseVisualStyleBackColor = true;
+            rbFemale.AutoSize = true;
+            rbFemale.Location = new Point(505, 63);
+            rbFemale.Margin = new Padding(3, 2, 3, 2);
+            rbFemale.Name = "rbFemale";
+            rbFemale.Size = new Size(76, 24);
+            rbFemale.TabIndex = 5;
+            rbFemale.TabStop = true;
+            rbFemale.Text = "Female";
+            rbFemale.UseVisualStyleBackColor = true;
             // 
             // rbMale
             // 
-            this.rbMale.AutoSize = true;
-            this.rbMale.Location = new System.Drawing.Point(484, 84);
-            this.rbMale.Name = "rbMale";
-            this.rbMale.Size = new System.Drawing.Size(74, 29);
-            this.rbMale.TabIndex = 4;
-            this.rbMale.TabStop = true;
-            this.rbMale.Text = "Male";
-            this.rbMale.UseVisualStyleBackColor = true;
+            rbMale.AutoSize = true;
+            rbMale.Location = new Point(424, 63);
+            rbMale.Margin = new Padding(3, 2, 3, 2);
+            rbMale.Name = "rbMale";
+            rbMale.Size = new Size(61, 24);
+            rbMale.TabIndex = 4;
+            rbMale.TabStop = true;
+            rbMale.Text = "Male";
+            rbMale.UseVisualStyleBackColor = true;
             // 
             // dtpBirthday
             // 
-            this.dtpBirthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpBirthday.Location = new System.Drawing.Point(484, 30);
-            this.dtpBirthday.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
-            this.dtpBirthday.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
-            this.dtpBirthday.Name = "dtpBirthday";
-            this.dtpBirthday.Size = new System.Drawing.Size(185, 31);
-            this.dtpBirthday.TabIndex = 3;
-            this.dtpBirthday.Value = new System.DateTime(2023, 11, 5, 11, 27, 40, 0);
-            this.dtpBirthday.ValueChanged += new System.EventHandler(this.dtpBirthday_ValueChanged);
+            dtpBirthday.Format = DateTimePickerFormat.Custom;
+            dtpBirthday.Location = new Point(424, 22);
+            dtpBirthday.Margin = new Padding(3, 2, 3, 2);
+            dtpBirthday.MaxDate = new DateTime(2100, 12, 31, 0, 0, 0, 0);
+            dtpBirthday.MinDate = new DateTime(1900, 1, 1, 0, 0, 0, 0);
+            dtpBirthday.Name = "dtpBirthday";
+            dtpBirthday.Size = new Size(162, 27);
+            dtpBirthday.TabIndex = 3;
+            dtpBirthday.Value = new DateTime(2023, 11, 5, 11, 27, 40, 0);
+            dtpBirthday.ValueChanged += dtpBirthday_ValueChanged;
             // 
             // rtbDescription
             // 
-            this.rtbDescription.Location = new System.Drawing.Point(6, 244);
-            this.rtbDescription.Name = "rtbDescription";
-            this.rtbDescription.Size = new System.Drawing.Size(663, 95);
-            this.rtbDescription.TabIndex = 2;
-            this.rtbDescription.Text = "";
-            this.rtbDescription.TextChanged += new System.EventHandler(this.rtbDescription_TextChanged);
+            rtbDescription.Location = new Point(5, 183);
+            rtbDescription.Margin = new Padding(3, 2, 3, 2);
+            rtbDescription.Name = "rtbDescription";
+            rtbDescription.Size = new Size(581, 72);
+            rtbDescription.TabIndex = 2;
+            rtbDescription.Text = "";
+            rtbDescription.TextChanged += rtbDescription_TextChanged;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(153, 30);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(202, 31);
-            this.txtName.TabIndex = 1;
-            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
+            txtName.Location = new Point(134, 22);
+            txtName.Margin = new Padding(3, 2, 3, 2);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(177, 27);
+            txtName.TabIndex = 1;
+            txtName.TextChanged += txtName_TextChanged;
             // 
             // lbRarity
             // 
-            this.lbRarity.AutoSize = true;
-            this.lbRarity.Location = new System.Drawing.Point(384, 148);
-            this.lbRarity.Name = "lbRarity";
-            this.lbRarity.Size = new System.Drawing.Size(60, 25);
-            this.lbRarity.TabIndex = 0;
-            this.lbRarity.Text = "Rarity";
+            lbRarity.AutoSize = true;
+            lbRarity.Location = new Point(336, 111);
+            lbRarity.Name = "lbRarity";
+            lbRarity.Size = new Size(49, 20);
+            lbRarity.TabIndex = 0;
+            lbRarity.Text = "Rarity";
             // 
             // lbDescription
             // 
-            this.lbDescription.AutoSize = true;
-            this.lbDescription.Location = new System.Drawing.Point(6, 205);
-            this.lbDescription.Name = "lbDescription";
-            this.lbDescription.Size = new System.Drawing.Size(108, 25);
-            this.lbDescription.TabIndex = 0;
-            this.lbDescription.Text = "Description";
+            lbDescription.AutoSize = true;
+            lbDescription.Location = new Point(5, 154);
+            lbDescription.Name = "lbDescription";
+            lbDescription.Size = new Size(87, 20);
+            lbDescription.TabIndex = 0;
+            lbDescription.Text = "Description";
             // 
             // lbRegion
             // 
-            this.lbRegion.AutoSize = true;
-            this.lbRegion.Location = new System.Drawing.Point(6, 148);
-            this.lbRegion.Name = "lbRegion";
-            this.lbRegion.Size = new System.Drawing.Size(71, 25);
-            this.lbRegion.TabIndex = 0;
-            this.lbRegion.Text = "Region";
+            lbRegion.AutoSize = true;
+            lbRegion.Location = new Point(5, 111);
+            lbRegion.Name = "lbRegion";
+            lbRegion.Size = new Size(57, 20);
+            lbRegion.TabIndex = 0;
+            lbRegion.Text = "Region";
             // 
             // lbSex
             // 
-            this.lbSex.AutoSize = true;
-            this.lbSex.Location = new System.Drawing.Point(384, 90);
-            this.lbSex.Name = "lbSex";
-            this.lbSex.Size = new System.Drawing.Size(41, 25);
-            this.lbSex.TabIndex = 0;
-            this.lbSex.Text = "Sex";
+            lbSex.AutoSize = true;
+            lbSex.Location = new Point(336, 68);
+            lbSex.Name = "lbSex";
+            lbSex.Size = new Size(33, 20);
+            lbSex.TabIndex = 0;
+            lbSex.Text = "Sex";
             // 
             // lbSpecies
             // 
-            this.lbSpecies.AutoSize = true;
-            this.lbSpecies.Location = new System.Drawing.Point(6, 90);
-            this.lbSpecies.Name = "lbSpecies";
-            this.lbSpecies.Size = new System.Drawing.Size(74, 25);
-            this.lbSpecies.TabIndex = 0;
-            this.lbSpecies.Text = "Species";
+            lbSpecies.AutoSize = true;
+            lbSpecies.Location = new Point(5, 68);
+            lbSpecies.Name = "lbSpecies";
+            lbSpecies.Size = new Size(59, 20);
+            lbSpecies.TabIndex = 0;
+            lbSpecies.Text = "Species";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(384, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Birthday";
+            label1.AutoSize = true;
+            label1.Location = new Point(336, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Birthday";
             // 
             // lbAnimalName
             // 
-            this.lbAnimalName.AutoSize = true;
-            this.lbAnimalName.Location = new System.Drawing.Point(6, 38);
-            this.lbAnimalName.Name = "lbAnimalName";
-            this.lbAnimalName.Size = new System.Drawing.Size(124, 25);
-            this.lbAnimalName.TabIndex = 0;
-            this.lbAnimalName.Text = "Animal Name";
+            lbAnimalName.AutoSize = true;
+            lbAnimalName.Location = new Point(5, 28);
+            lbAnimalName.Name = "lbAnimalName";
+            lbAnimalName.Size = new Size(102, 20);
+            lbAnimalName.TabIndex = 0;
+            lbAnimalName.Text = "Animal Name";
             // 
             // btnAddSchedule
             // 
-            this.btnAddSchedule.Location = new System.Drawing.Point(152, 545);
-            this.btnAddSchedule.Name = "btnAddSchedule";
-            this.btnAddSchedule.Size = new System.Drawing.Size(134, 39);
-            this.btnAddSchedule.TabIndex = 2;
-            this.btnAddSchedule.Text = "Add Schedule";
-            this.btnAddSchedule.UseVisualStyleBackColor = true;
+            btnAddSchedule.Location = new Point(133, 409);
+            btnAddSchedule.Margin = new Padding(3, 2, 3, 2);
+            btnAddSchedule.Name = "btnAddSchedule";
+            btnAddSchedule.Size = new Size(117, 29);
+            btnAddSchedule.TabIndex = 2;
+            btnAddSchedule.Text = "Add Schedule";
+            btnAddSchedule.UseVisualStyleBackColor = true;
             // 
             // btnAddFood
             // 
-            this.btnAddFood.Location = new System.Drawing.Point(42, 545);
-            this.btnAddFood.Name = "btnAddFood";
-            this.btnAddFood.Size = new System.Drawing.Size(104, 39);
-            this.btnAddFood.TabIndex = 3;
-            this.btnAddFood.Text = "Add Food";
-            this.btnAddFood.UseVisualStyleBackColor = true;
+            btnAddFood.Location = new Point(37, 409);
+            btnAddFood.Margin = new Padding(3, 2, 3, 2);
+            btnAddFood.Name = "btnAddFood";
+            btnAddFood.Size = new Size(91, 29);
+            btnAddFood.TabIndex = 3;
+            btnAddFood.Text = "Add Food";
+            btnAddFood.UseVisualStyleBackColor = true;
+            btnAddFood.Click += btnAddFood_Click;
             // 
             // btnSave
             // 
-            this.btnSave.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnSave.Location = new System.Drawing.Point(264, 606);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(101, 40);
-            this.btnSave.TabIndex = 4;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            btnSave.DialogResult = DialogResult.OK;
+            btnSave.Location = new Point(231, 454);
+            btnSave.Margin = new Padding(3, 2, 3, 2);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(88, 30);
+            btnSave.TabIndex = 4;
+            btnSave.Text = "Save";
+            btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(408, 606);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(100, 40);
-            this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            btnCancel.Location = new Point(357, 454);
+            btnCancel.Margin = new Padding(3, 2, 3, 2);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(88, 30);
+            btnCancel.TabIndex = 5;
+            btnCancel.Text = "Cancel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // lbAnimalId
             // 
-            this.lbAnimalId.AutoSize = true;
-            this.lbAnimalId.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbAnimalId.Location = new System.Drawing.Point(42, 42);
-            this.lbAnimalId.Name = "lbAnimalId";
-            this.lbAnimalId.Size = new System.Drawing.Size(79, 20);
-            this.lbAnimalId.TabIndex = 6;
-            this.lbAnimalId.Text = "Animal ID";
+            lbAnimalId.AutoSize = true;
+            lbAnimalId.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lbAnimalId.Location = new Point(37, 32);
+            lbAnimalId.Name = "lbAnimalId";
+            lbAnimalId.Size = new Size(61, 15);
+            lbAnimalId.TabIndex = 6;
+            lbAnimalId.Text = "Animal ID";
             // 
             // txtAnimalId
             // 
-            this.txtAnimalId.Location = new System.Drawing.Point(128, 35);
-            this.txtAnimalId.Name = "txtAnimalId";
-            this.txtAnimalId.Size = new System.Drawing.Size(110, 27);
-            this.txtAnimalId.TabIndex = 7;
+            txtAnimalId.Location = new Point(112, 26);
+            txtAnimalId.Margin = new Padding(3, 2, 3, 2);
+            txtAnimalId.Name = "txtAnimalId";
+            txtAnimalId.Size = new Size(97, 23);
+            txtAnimalId.TabIndex = 7;
             // 
             // sqlCommand1
             // 
-            this.sqlCommand1.CommandTimeout = 30;
-            this.sqlCommand1.Connection = null;
-            this.sqlCommand1.Notification = null;
-            this.sqlCommand1.Transaction = null;
+            sqlCommand1.CommandTimeout = 30;
+            sqlCommand1.Connection = null;
+            sqlCommand1.Notification = null;
+            sqlCommand1.Transaction = null;
             // 
             // errorProvider1
             // 
-            this.errorProvider1.ContainerControl = this;
+            errorProvider1.ContainerControl = this;
             // 
             // frmAnimalDetail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(776, 681);
-            this.Controls.Add(this.txtAnimalId);
-            this.Controls.Add(this.lbAnimalId);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.btnAddFood);
-            this.Controls.Add(this.btnAddSchedule);
-            this.Controls.Add(this.gbAnimalInfo);
-            this.Controls.Add(this.lbAnimalDetail);
-            this.Name = "frmAnimalDetail";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " ";
-            this.Load += new System.EventHandler(this.frmAnimalDetail_Load);
-            this.gbAnimalInfo.ResumeLayout(false);
-            this.gbAnimalInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(679, 511);
+            Controls.Add(txtAnimalId);
+            Controls.Add(lbAnimalId);
+            Controls.Add(btnCancel);
+            Controls.Add(btnSave);
+            Controls.Add(btnAddFood);
+            Controls.Add(btnAddSchedule);
+            Controls.Add(gbAnimalInfo);
+            Controls.Add(lbAnimalDetail);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "frmAnimalDetail";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = " ";
+            Load += frmAnimalDetail_Load;
+            gbAnimalInfo.ResumeLayout(false);
+            gbAnimalInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

@@ -1,0 +1,15 @@
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\bin\Debug\net6.0\appsettings.json
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\bin\Debug\net6.0\BussinessObject.deps.json
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\bin\Debug\net6.0\BussinessObject.runtimeconfig.json
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\bin\Debug\net6.0\BussinessObject.dll
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\bin\Debug\net6.0\BussinessObject.pdb
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.csproj.AssemblyReference.cache
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.AssemblyInfoInputs.cache
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.AssemblyInfo.cs
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.csproj.CoreCompileInputs.cache
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.dll
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\refint\BussinessObject.dll
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.pdb
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\BussinessObject.genruntimeconfig.cache
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\BussinessObject\obj\Debug\net6.0\ref\BussinessObject.dll

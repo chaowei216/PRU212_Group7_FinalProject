@@ -16,6 +16,7 @@ namespace ZooManagementApp
     {
         IUserRepository userRepository = new UserRepository();
         BindingSource source = new BindingSource();
+        public User User { get; set; }
         public frmUser()
         {
             InitializeComponent();
@@ -45,7 +46,6 @@ namespace ZooManagementApp
                 txtPhone.DataBindings.Clear();
                 txtRole.DataBindings.Clear();
                 txtStartDate.DataBindings.Clear();
-                txtPassword.DataBindings.Clear();
 
                 txtAddress.DataBindings.Add("Text", source, "Address");
                 txtCountAnimal.DataBindings.Add("Text", source, "CountAnimal");
@@ -57,7 +57,6 @@ namespace ZooManagementApp
                 txtPhone.DataBindings.Add("Text", source, "Phone");
                 txtRole.DataBindings.Add("Text", source, "Role");
                 txtStartDate.DataBindings.Add("Text", source, "StartDate");
-                //txtPassword.DataBindings.Add("Text", source, "Password");
 
                 dataGridView1.DataSource = null;
                 dataGridView1.DataSource = source;
@@ -90,7 +89,6 @@ namespace ZooManagementApp
             txtPhone.Text = string.Empty;
             txtRole.Text = string.Empty;
             txtSearch.Text = string.Empty;
-            txtPassword.Text = string.Empty;
             txtStartDate.Text = string.Empty;
             btnDelete.Text = string.Empty;
             btnNew.Text = string.Empty;
@@ -144,8 +142,6 @@ namespace ZooManagementApp
 
         private void frmUser_Load(object sender, EventArgs e)
         {
-            this.Left = (Screen.PrimaryScreen.Bounds.Width - this.Width) / 2;
-            this.Top = (Screen.PrimaryScreen.Bounds.Height - this.Height) / 2;
             txtAddress.Enabled = false;
             txtCountAnimal.Enabled = false;
             txtEmail.Enabled = false;
@@ -155,7 +151,6 @@ namespace ZooManagementApp
             txtLastName.Enabled = false;
             txtPhone.Enabled = false;
             txtRole.Enabled = false;
-            txtPassword.Enabled = false;
             txtSearch.Enabled = false;
             txtStartDate.Enabled = false;
             btnDelete.Enabled = false;

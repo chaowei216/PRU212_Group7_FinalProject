@@ -1,0 +1,16 @@
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\appsettings.json
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.dll
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\BussinessObject.dll
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\bin\Debug\net6.0\BussinessObject.pdb
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.dll
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+F:\Programming\New folder\PRN211_PROJECT\Project_PRN211\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
