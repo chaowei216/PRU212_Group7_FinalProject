@@ -41,32 +41,53 @@ namespace DataAccess
 
         public bool AddNewFood(Food food)
         {
-            using var db = new ZooManagementFormContext();
-            db.Foods.Add(food);
-            return db.SaveChanges() > 0;
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                db.Foods.Add(food);
+                return db.SaveChanges() > 0;
+            } catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
         }
 
         public bool UpdateFood(Food food)
         {
-            using var db = new ZooManagementFormContext();
-            var fd = db.Foods.FirstOrDefault(f => f.FoodId == food.FoodId);
-            if (fd != null)
+            try
             {
-                db.Foods.Update(food);
-                return db.SaveChanges() > 0;
+                using var db = new ZooManagementFormContext();
+                var fd = db.Foods.FirstOrDefault(f => f.FoodId == food.FoodId);
+                if (fd != null)
+                {
+                    db.Foods.Update(food);
+                    return db.SaveChanges() > 0;
+                }
+            } catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
             }
+
             return false;
         }
 
         public bool DeleteFood(string id) 
         {
-            using var db = new ZooManagementFormContext();
-            Food? fd = db.Foods.FirstOrDefault(f => f.FoodId == id);
-            if (fd != null)
+            try
             {
-                db.Foods.Remove(fd);
-                return db.SaveChanges() > 0;
+                using var db = new ZooManagementFormContext();
+                Food? fd = db.Foods.FirstOrDefault(f => f.FoodId == id);
+                if (fd != null)
+                {
+                    db.Foods.Remove(fd);
+                    return db.SaveChanges() > 0;
+                }
+            } catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
             }
+
             return false;
         }
     }

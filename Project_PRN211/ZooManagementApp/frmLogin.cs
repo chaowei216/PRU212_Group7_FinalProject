@@ -29,7 +29,6 @@ namespace ZooManagementApp
                 {
                     User = tmp,
                 };
-                this.Hide();
                 f.ShowDialog();
          
             }
@@ -39,14 +38,12 @@ namespace ZooManagementApp
                 {
                     User = tmp,
                 };
-                this.Hide();
                 f.ShowDialog();
             
             }
             else if (tmp != null && tmp.Role == 3) 
             {
                 frmMain f = new frmMain{ User = tmp };
-                this.Hide();
                 f.ShowDialog();
             }
             else {
