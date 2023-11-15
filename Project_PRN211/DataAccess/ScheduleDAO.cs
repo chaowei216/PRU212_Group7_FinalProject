@@ -1,4 +1,5 @@
 ﻿using BussinessObject.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,10 +57,12 @@ namespace DataAccess
             return false;
         }
 
-        public bool DeleteSchedule(string id)
+       
+
+       public bool DeleteSchedule(Schedule c)
         {
             using var db = new ZooManagementFormContext();
-            Schedule? sche = db.Schedules.FirstOrDefault(f => f.ScheduleId == id);
+            Schedule? sche = db.Schedules.FirstOrDefault(f => f.ScheduleId == c.ScheduleId);
             if (sche != null)
             {
                 db.Schedules.Remove(sche);

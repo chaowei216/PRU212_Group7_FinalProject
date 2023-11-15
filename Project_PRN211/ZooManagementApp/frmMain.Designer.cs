@@ -91,7 +91,6 @@
             btnExit.TabIndex=2;
             btnExit.Text="Log Out";
             btnExit.UseVisualStyleBackColor=false;
-          
             // 
             // menuStrip1
             // 
@@ -280,7 +279,7 @@
             Name="frmMain";
             StartPosition=FormStartPosition.CenterScreen;
             Text="Menu";
-            TransparencyKey=Color.FromArgb(224, 224, 224);
+            TransparencyKey=Color.White;
             Load+=frmMain_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             menuStrip1.ResumeLayout(false);

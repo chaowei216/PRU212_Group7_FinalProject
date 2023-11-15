@@ -23,7 +23,7 @@ namespace ZooManagementApp
         frmSchedule frmSchedulee;
         frmFood frmFoodd;
         frmAnimals frmAnimalss;
-        
+
         bool click = false;
         public User User { get; set; }
         public frmMain()
@@ -33,7 +33,7 @@ namespace ZooManagementApp
 
 
 
-      
+
 
         private void mnuUser_Click(object sender, EventArgs e)
         {
@@ -49,7 +49,7 @@ namespace ZooManagementApp
             }
             else
             {
-              
+
                 MessageBox.Show("You Don't Have permission", "Menu");
             }
         }
@@ -58,9 +58,9 @@ namespace ZooManagementApp
         {
 
             IsMdiContainer = true;
-         
-            
-            
+
+
+
             frmLoginn = new frmLogin();
             frmMainn = new frmMain();
             frmCagee = new frmCage("User", _email);
@@ -91,37 +91,37 @@ namespace ZooManagementApp
 
         private void mnuAnimals_Click(object sender, EventArgs e)
         {
-            if (Role.Text is "Staff" or "Zoo Trainer" )
+            if (Role.Text is "Staff" or "Zoo Trainer")
             {
 
 
-            
+
                 frmAnimalss.TopLevel = false;
                 panel.Controls.Add(frmAnimalss);
                 frmAnimalss.BringToFront();
-
+                frmAnimalss.MdiParent = null;
                 frmAnimalss.Show();
                 frmCagee.Hide();
                 frmFoodd.Hide();
-             
-              
-                
+
+
+
             }
 
             else
             {
-             
+
                 MessageBox.Show("You Don't Have permission", "Menu");
             }
-           
+
         }
 
         private void mnuFood_Click(object sender, EventArgs e)
         {
             if (Role.Text == "Staff")
             {
-               
-             
+
+
                 frmFoodd.TopLevel = false;
                 panel.Controls.Add(frmFoodd);
                 frmFoodd.BringToFront();
@@ -133,16 +133,16 @@ namespace ZooManagementApp
             }
             else if (Role.Text == "Zoo Trainer")
             {
-            
+
 
                 frmFoodd.TopLevel = false;
                 panel.Controls.Add(frmFoodd);
                 frmFoodd.BringToFront();
-               
+
                 frmFoodd.Show();
                 frmAnimalss.Hide();
                 frmCagee.Hide();
-                frmSchedulee.Hide();    
+                frmSchedulee.Hide();
             }
             else
             {
@@ -156,12 +156,12 @@ namespace ZooManagementApp
         {
             if (Role.Text == "Staff")
             {
-               
-             
+
+
                 frmCagee.TopLevel = false;
-                    panel.Controls.Add(frmCagee);
-                    frmCagee.BringToFront();
-             
+                panel.Controls.Add(frmCagee);
+                frmCagee.BringToFront();
+
                 frmCagee.Show();
                 frmAnimalss.Hide();
                 frmSchedulee.Hide();
@@ -172,7 +172,7 @@ namespace ZooManagementApp
                 frmCagee.TopLevel = false;
                 panel.Controls.Add(frmCagee);
                 frmCagee.BringToFront();
-               
+
                 frmCagee.Show();
                 frmAnimalss.Hide();
                 frmSchedulee.Hide();
@@ -190,22 +190,28 @@ namespace ZooManagementApp
         {
             if (Role.Text == "Staff")
             {
-              frmSchedulee.TopLevel = false;
+                frmSchedulee.MdiParent = null;
+                frmSchedulee.TopLevel = false;
                 panel.Controls.Add(frmSchedulee);
-                    frmSchedulee.BringToFront();
+
+                frmSchedulee.Activate();
+
                 frmSchedulee.Show();
+                frmSchedulee.BringToFront();
+                //frmSchedulee.Refresh();
                 frmAnimalss.Hide();
-               frmCagee.Hide();
+                frmCagee.Hide();
                 frmFoodd.Hide();
             }
             else if (Role.Text == "Zoo Trainer")
             {
                 frmSchedulee.TopLevel = false;
                 panel.Controls.Add(frmSchedulee);
-                frmSchedulee.BringToFront();
+
                 frmSchedulee.Show();
+                frmSchedulee.BringToFront();
                 frmAnimalss.Hide();
-              frmCagee.Hide();
+                frmCagee.Hide();
                 frmFoodd.Hide();
             }
             else
@@ -223,10 +229,10 @@ namespace ZooManagementApp
             if (result == DialogResult.OK)
             {
 
-               this.Hide();
-                frmLoginn.ShowDialog();  
+                this.Hide();
+                frmLoginn.ShowDialog();
             }
-            
+
         }
     }
 }
