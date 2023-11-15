@@ -25,21 +25,27 @@ namespace ZooManagementApp
             var tmp = member.CheckLogin(txtEmail.Text, txtPassword.Text);
             if ( tmp != null && tmp.Role == 1)
             {
-                frmMain f = new frmMain("Admin", txtEmail.Text);
+                frmMain f = new frmMain
+                {
+                    User = tmp,
+                };
                 this.Hide();
                 f.ShowDialog();
          
             }
             else if (tmp != null && tmp.Role == 2)
             {
-                frmMain f = new frmMain("Staff", txtEmail.Text);
+                frmMain f = new frmMain
+                {
+                    User = tmp,
+                };
                 this.Hide();
                 f.ShowDialog();
             
             }
             else if (tmp != null && tmp.Role == 3) 
             {
-                frmMain f = new frmMain("Zoo Trainer", txtEmail.Text);
+                frmMain f = new frmMain{ User = tmp };
                 this.Hide();
                 f.ShowDialog();
             }

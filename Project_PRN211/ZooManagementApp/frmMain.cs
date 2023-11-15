@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.ApplicationServices;
+﻿using BussinessObject.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace ZooManagementApp
 {
@@ -16,40 +17,40 @@ namespace ZooManagementApp
 
         private readonly string _role;
         private readonly string _email;
+        frmLogin frmLoginn;
+        frmMain frmMainn;
+        frmCage frmCagee;
+        frmSchedule frmSchedulee;
+        frmFood frmFoodd;
+        frmAnimals frmAnimalss;
+        
+        bool click = false;
         public User User { get; set; }
         public frmMain()
         {
             InitializeComponent();
         }
 
-        public frmMain(string role, string email) : this()
-        {
-            _role = role;
-            Role.Text = _role;
-            _email = email;
-        }
-        private void frmMain_Load(object sender, EventArgs e)
-        {
 
-        }
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Close();
-            frmLogin f = new frmLogin();
-            f.ShowDialog();
-        }
+
+      
 
         private void mnuUser_Click(object sender, EventArgs e)
         {
-            if (Role.Text == "Admin" && Role.Text == "Staff")
+            if (User.Role == 1)
             {
                 frmUser frmUser = new frmUser();
-                frmUser.MdiParent = this;
+                frmUser.TopLevel = false;
+                panel.Controls.Add(frmUser);
+                frmUser.BringToFront();
+
+
                 frmUser.Show();
             }
             else
             {
-                MessageBox.Show("You Dont Have permission","Menu");
+              
+                MessageBox.Show("You Don't Have permission", "Menu");
             }
         }
 
@@ -57,71 +58,178 @@ namespace ZooManagementApp
         {
 
             IsMdiContainer = true;
+         
+            
+            
+            frmLoginn = new frmLogin();
+            frmMainn = new frmMain();
+            frmCagee = new frmCage("User", _email);
+            frmSchedulee = new frmSchedule("User", _email);
+            frmFoodd = new frmFood
+            {
+                User = User
+            };
+            frmAnimalss = new frmAnimals("User", _email);
+            if (User.Role == 2 || User.Role == 3)
+            {
+                if (User.Role == 2) Role.Text = "Staff";
+                else Role.Text = "Zoo Trainer";
+                mnuAnimals.Enabled = true;
+                mnuFood.Enabled = true;
+                mnuSchedule.Enabled = true;
+                mnuCage.Enabled = true;
+                mnuUser.Enabled = false;
+            }
+            else if (User.Role == 1)
+            {
+                mnuAnimals.Enabled = false;
+                mnuFood.Enabled = false;
+                mnuSchedule.Enabled = false;
+                mnuCage.Enabled = false;
+                Role.Text = "Admin";
+            }
+
 
         }
 
         private void mnuAnimals_Click(object sender, EventArgs e)
         {
-            if (Role.Text is /*"Admin" or */"User")
+            if (Role.Text is "Staff" or "Zoo Trainer" )
             {
-                frmAnimals frmAnimals = new frmAnimals("User", _email);
-                frmAnimals.MdiParent = this;
-                frmAnimals.Show();
+
+
+            
+                frmAnimalss.TopLevel = false;
+                panel.Controls.Add(frmAnimalss);
+                frmAnimalss.BringToFront();
+
+                frmAnimalss.Show();
+                frmCagee.Hide();
+                frmFoodd.Hide();
+             
+              
+                
             }
 
             else
             {
-                mnuAnimals.Enabled=false; ;
-                MessageBox.Show("You Dont Have permission", "Menu");
+             
+                MessageBox.Show("You Don't Have permission", "Menu");
             }
+           
         }
 
         private void mnuFood_Click(object sender, EventArgs e)
         {
-            if (Role.Text == "Admin")
+            if (Role.Text == "Staff")
             {
-                frmFood frmFood = new frmFood("Admin", _email);
-                frmFood.MdiParent = this;
-                frmFood.Show();
+               
+             
+                frmFoodd.TopLevel = false;
+                panel.Controls.Add(frmFoodd);
+                frmFoodd.BringToFront();
+
+                frmFoodd.Show();
+                frmAnimalss.Hide();
+                frmCagee.Hide();
+                frmSchedulee.Hide();
             }
-            else if (Role.Text == "")
+            else if (Role.Text == "Zoo Trainer")
             {
-                frmFood frmFood = new frmFood("User", _email);
-                frmFood.MdiParent = this;
-                frmFood.Show();
+            
+
+                frmFoodd.TopLevel = false;
+                panel.Controls.Add(frmFoodd);
+                frmFoodd.BringToFront();
+               
+                frmFoodd.Show();
+                frmAnimalss.Hide();
+                frmCagee.Hide();
+                frmSchedulee.Hide();    
+            }
+            else
+            {
+                mnuFood.Enabled=false;
+                MessageBox.Show("You Don't Have permission", "Menu");
+
             }
         }
 
         private void mnuCage_Click(object sender, EventArgs e)
         {
-            if (Role.Text == "Admin")
+            if (Role.Text == "Staff")
             {
-                frmCage frmCage = new frmCage("Admin", _email);
-                frmCage.MdiParent = this;
-                frmCage.Show();
+               
+             
+                frmCagee.TopLevel = false;
+                    panel.Controls.Add(frmCagee);
+                    frmCagee.BringToFront();
+             
+                frmCagee.Show();
+                frmAnimalss.Hide();
+                frmSchedulee.Hide();
+                frmFoodd.Hide();
+            }
+            else if (Role.Text == "Zoo Trainer")
+            {
+                frmCagee.TopLevel = false;
+                panel.Controls.Add(frmCagee);
+                frmCagee.BringToFront();
+               
+                frmCagee.Show();
+                frmAnimalss.Hide();
+                frmSchedulee.Hide();
+                frmFoodd.Hide();
             }
             else
             {
-                frmCage frmFood = new frmCage("User", _email);
-                frmFood.MdiParent = this;
-                frmFood.Show();
+                mnuCage.Checked=false;
+                MessageBox.Show("You Don't Have permission", "Menu");
+
             }
         }
 
         private void mnuSchedule_Click(object sender, EventArgs e)
         {
-            if (Role.Text == "Admin")
+            if (Role.Text == "Staff")
             {
-                frmSchedule frmSchedule = new frmSchedule("Admin", _email);
-                frmSchedule.MdiParent = this;
-                frmSchedule.Show();
+              frmSchedulee.TopLevel = false;
+                panel.Controls.Add(frmSchedulee);
+                    frmSchedulee.BringToFront();
+                frmSchedulee.Show();
+                frmAnimalss.Hide();
+               frmCagee.Hide();
+                frmFoodd.Hide();
+            }
+            else if (Role.Text == "Zoo Trainer")
+            {
+                frmSchedulee.TopLevel = false;
+                panel.Controls.Add(frmSchedulee);
+                frmSchedulee.BringToFront();
+                frmSchedulee.Show();
+                frmAnimalss.Hide();
+              frmCagee.Hide();
+                frmFoodd.Hide();
             }
             else
             {
-                frmSchedule frmSchedule = new frmSchedule("User", _email);
-                frmSchedule.MdiParent = this;
-                frmSchedule.Show();
+                mnuFood.Enabled=false;
+                MessageBox.Show("You Don't Have permission", "Menu");
+
             }
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Menu", MessageBoxButtons.OKCancel);
+
+            if (result == DialogResult.OK)
+            {
+
+               this.Hide();
+                frmLoginn.ShowDialog();  
+            }
+            
         }
     }
 }

@@ -14,8 +14,6 @@ namespace ZooManagementApp
 {
     public partial class frmFood : Form
     {
-        private readonly string _role;
-        private readonly string _email;
         IFoodRepository foodRepository = new FoodRepository();
         public User User { get; set; }
         public frmFood()

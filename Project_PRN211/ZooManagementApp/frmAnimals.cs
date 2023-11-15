@@ -22,10 +22,10 @@ namespace ZooManagementApp
         {
             InitializeComponent();
         }
-        public frmAnimals(string role, string email): this()
+        public frmAnimals(string role, string email) : this()
         {
             _role = role;
-                _email = email;
+            _email = email;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -43,8 +43,8 @@ namespace ZooManagementApp
             txtSpecies.Text = string.Empty;
             rtbDescription.Text = string.Empty;
             cboHealthCheck.Text = string.Empty;
-            txtBirthday.Text = string.Empty;       
-        } 
+            txtBirthday.Text = string.Empty;
+        }
 
         private void EnableText(bool status)
         {
@@ -72,7 +72,7 @@ namespace ZooManagementApp
                 Description = rtbDescription.Text,
                 HealthCheck = cboHealthCheck.Text,
                 Birthday = DateTime.Parse(txtBirthday.Text)
-             };
+            };
             return animal;
         }
 
@@ -131,7 +131,7 @@ namespace ZooManagementApp
                 InsertOrUpdate = false,
                 AnimalRepository = animalRepo,
             };
-            if(frmAnimalDetail.ShowDialog() == DialogResult.OK)
+            if (frmAnimalDetail.ShowDialog() == DialogResult.OK)
             {
                 LoadAnimalList();
                 source.Position = source.Count - 1;
@@ -164,21 +164,23 @@ namespace ZooManagementApp
         private void btnDelete_Click(object sender, EventArgs e)
         {
             string id = txtAnimalId.Text;
-            if(MessageBox.Show("Are you sure about delete this animal?", "Delete animal", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Are you sure about delete this animal?", "Delete animal", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 try
                 {
                     animalRepo.DeleteAnimal(id);
                     LoadAnimalList();
                     source.Position = 0;
-                } catch(Exception ex)
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, "Delete animal");
                 }
-            } else
-              {
+            }
+            else
+            {
                 MessageBox.Show("Deny to delete", "Delete animal");
-              }
+            }
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
