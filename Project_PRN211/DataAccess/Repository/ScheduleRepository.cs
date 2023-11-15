@@ -7,13 +7,22 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repository
 {
-    public class SheduleRepository
+    public class ScheduleRepository : IScheduleRepository
     {
         public bool AddNewSchedule(Schedule newSchedule) => ScheduleDAO.Instance.AddNewSchedule(newSchedule);
 
 
-        public bool DeleteSchedule(string id) => ScheduleDAO.Instance.DeleteSchedule(id);
+    
 
+        public void DeleteSchedule(Schedule c)
+     => ScheduleDAO.Instance.DeleteSchedule(c);
+        public bool DetachSchedule(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Schedule> GetAllSchedules()
+      =>  ScheduleDAO.Instance.GetSchedules();
         public Schedule? GetSchedule(string id) => ScheduleDAO.Instance.GetScheduleById(id);
 
 

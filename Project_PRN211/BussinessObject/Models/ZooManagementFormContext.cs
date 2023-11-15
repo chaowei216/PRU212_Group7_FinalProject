@@ -33,7 +33,7 @@ namespace BussinessObject.Models
             IConfiguration configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", true, true).Build();
-            return configuration["ConnectionStrings:DBDefault"];
+            return configuration["ConnectionStrings:DefaultConnectionStringDB"];
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

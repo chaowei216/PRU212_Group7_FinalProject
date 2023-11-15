@@ -42,7 +42,7 @@ namespace DataAccess
                    .Build();
             var adminUser = config["AdminAccount:Email"];
             var adminPassword = config["AdminAccount:Password"];
-            ZooManagementFormContext context = new ZooManagementFormContext();
+            using var db = new ZooManagementFormContext();
             if (email == adminUser && password == adminPassword)
             {
                 return new User
@@ -55,8 +55,7 @@ namespace DataAccess
             }
             else
             {
-                return context.Users.SingleOrDefault(m => m.Email.Equals(email)
-                && m.Password.Equals(password));
+                return db.Users.FirstOrDefault(m => m.Email.Equals(email) && m.Password.Equals(password));
             }
         }
         public List<User> GetUsers()
