@@ -2200,39 +2200,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\triho\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\DELL\\.nuget\\packages\\": {},
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\c#ne\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+      "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\Cho Tri\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
       "projectName": "BussinessObject",
-      "projectPath": "D:\\c#ne\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
-      "packagesPath": "C:\\Users\\triho\\.nuget\\packages\\",
-      "outputPath": "D:\\c#ne\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
-=======
-      "projectUniqueName": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
-      "projectName": "BussinessObject",
-      "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
+      "projectPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Cho Tri\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\BussinessObject.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Backup\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
+      "outputPath": "D:\\Major5\\PRN211_.Net\\PROJECT\\Cho Tri\\PRN211_PROJECT\\Project_PRN211\\BussinessObject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\triho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2241,7 +2225,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2290,11 +2273,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
       }
     }
   }

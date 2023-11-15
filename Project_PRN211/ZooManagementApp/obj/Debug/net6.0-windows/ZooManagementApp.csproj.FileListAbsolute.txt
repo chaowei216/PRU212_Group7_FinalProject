@@ -1,346 +1,69 @@
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.exe
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.deps.json
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.runtimeconfig.json
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.AssemblyReference.cache
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmLogin.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmMain.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.GenerateResource.cache
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfoInputs.cache
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfo.cs
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CoreCompileInputs.cache
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\refint\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.genruntimeconfig.cache
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ref\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimals.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.Properties.Resources.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimalDetail.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\appsettings.json
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.dll
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.pdb
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.pdb
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CopyComplete
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCage.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmFood.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmSchedule.resources
-D:\Major5\PRN211_.Net\PROJECT\Project_PRN211\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUser.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.exe
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\appsettings.json
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.deps.json
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.runtimeconfig.json
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.pdb
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.pdb
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.AssemblyReference.cache
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimalDetail.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimals.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCage.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCageDetail.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmFood.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmLogin.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmMain.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmSchedule.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUser.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUserDetail.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.Properties.Resources.resources
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.GenerateResource.cache
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfoInputs.cache
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfo.cs
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CoreCompileInputs.cache
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CopyComplete
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\refint\ZooManagementApp.dll
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.genruntimeconfig.cache
-D:\PRN211\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ref\ZooManagementApp.dll
-<<<<<<< HEAD
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.AssemblyReference.cache
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimalDetail.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimals.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCage.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCageDetail.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmFood.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmLogin.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmMain.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmSchedule.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUser.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUserDetail.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.Properties.Resources.resources
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.GenerateResource.cache
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfoInputs.cache
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfo.cs
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CoreCompileInputs.cache
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\refint\ZooManagementApp.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.exe
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\appsettings.json
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.deps.json
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.runtimeconfig.json
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.dll
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.pdb
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.pdb
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CopyComplete
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.genruntimeconfig.cache
-D:\c#ne\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ref\ZooManagementApp.dll
-=======
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.exe
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\appsettings.json
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.deps.json
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.runtimeconfig.json
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.pdb
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.pdb
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.AssemblyReference.cache
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimalDetail.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimals.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCage.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCageDetail.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmFood.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmLogin.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmMain.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmSchedule.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUser.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUserDetail.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.Properties.Resources.resources
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.GenerateResource.cache
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfoInputs.cache
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfo.cs
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CoreCompileInputs.cache
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CopyComplete
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\refint\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.genruntimeconfig.cache
-D:\Major5\PRN211_.Net\PROJECT\main\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ref\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.exe
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\appsettings.json
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.deps.json
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.runtimeconfig.json
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.pdb
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.pdb
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.AssemblyReference.cache
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimalDetail.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimals.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCage.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCageDetail.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmFood.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmLogin.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmMain.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmSchedule.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUser.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUserDetail.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.Properties.Resources.resources
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.GenerateResource.cache
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfoInputs.cache
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfo.cs
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CoreCompileInputs.cache
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CopyComplete
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\refint\ZooManagementApp.dll
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.pdb
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.genruntimeconfig.cache
-D:\Major5\PRN211_.Net\PROJECT\Backup\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ref\ZooManagementApp.dll
->>>>>>> fa238d52912d072fb1655f669acbe8e599b07a6c
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.exe
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\appsettings.json
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.deps.json
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.runtimeconfig.json
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\ZooManagementApp.pdb
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\BussinessObject.pdb
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\bin\Debug\net6.0-windows\DataAccess.pdb
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.AssemblyReference.cache
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimalDetail.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmAnimals.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCage.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmCageDetail.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmFood.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmLogin.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmMain.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmSchedule.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUser.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.frmUserDetail.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.Properties.Resources.resources
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.GenerateResource.cache
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfoInputs.cache
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.AssemblyInfo.cs
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CoreCompileInputs.cache
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.csproj.CopyComplete
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\refint\ZooManagementApp.dll
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.pdb
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ZooManagementApp.genruntimeconfig.cache
+D:\Major5\PRN211_.Net\PROJECT\Cho Tri\PRN211_PROJECT\Project_PRN211\ZooManagementApp\obj\Debug\net6.0-windows\ref\ZooManagementApp.dll
