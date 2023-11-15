@@ -49,14 +49,14 @@ namespace DataAccess
                 {
                     UserId = "",
                     Email = email,
+                    Password = password,
                     Role = 1
                 };
             }
-            else if(password.Equals("123456"))
+            else
             {
-                return db.Users.FirstOrDefault(m => m.Email.Equals(email));
+                return db.Users.FirstOrDefault(m => m.Email.Equals(email) && m.Password.Equals(password));
             }
-            return null;
         }
         public List<User> GetUsers()
         {

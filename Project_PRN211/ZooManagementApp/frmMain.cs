@@ -14,16 +14,12 @@ namespace ZooManagementApp
 {
     public partial class frmMain : Form
     {
-
-        private readonly string _role;
-        private readonly string _email;
-        frmLogin frmLoginn;
-        frmMain frmMainn;
+        frmUser frmUserr;
         frmCage frmCagee;
         frmSchedule frmSchedulee;
         frmFood frmFoodd;
         frmAnimals frmAnimalss;
-        
+
         bool click = false;
         public User User { get; set; }
         public frmMain()
@@ -31,49 +27,50 @@ namespace ZooManagementApp
             InitializeComponent();
         }
 
-
-
-      
-
         private void mnuUser_Click(object sender, EventArgs e)
         {
-            if (User.Role == 1)
-            {
-                frmUser frmUser = new frmUser();
-                frmUser.TopLevel = false;
-                panel.Controls.Add(frmUser);
-                frmUser.BringToFront();
+            frmUserr.TopLevel = false;
+            panel.Controls.Add(frmUserr);
+            frmUserr.Activate();
+            frmUserr.Show();
+            frmUserr.BringToFront();
+            frmUserr.Refresh();
 
-
-                frmUser.Show();
-            }
-            else
-            {
-              
-                MessageBox.Show("You Don't Have permission", "Menu");
-            }
+            frmAnimalss.Hide();
+            frmCagee.Hide();
+            frmFoodd.Hide();
+            frmSchedulee.Hide();
         }
 
         private void frmMain_Load_1(object sender, EventArgs e)
         {
 
             IsMdiContainer = true;
-         
-            
-            
-            frmLoginn = new frmLogin();
-            frmMainn = new frmMain();
-            frmCagee = new frmCage("User", _email);
-            frmSchedulee = new frmSchedule("User", _email);
+            panel.Enabled = true;
+
+            frmUserr = new frmUser();
+            frmCagee = new frmCage();
+            frmSchedulee = new frmSchedule();
             frmFoodd = new frmFood
             {
                 User = User
             };
-            frmAnimalss = new frmAnimals("User", _email);
-            if (User.Role == 2 || User.Role == 3)
+            frmAnimalss = new frmAnimals
             {
-                if (User.Role == 2) Role.Text = "Staff";
-                else Role.Text = "Zoo Trainer";
+                User = User
+            };
+            if (User.Role == 2)
+            {
+                Role.Text = "Staff";
+                mnuAnimals.Enabled = true;
+                mnuFood.Enabled = true;
+                mnuSchedule.Enabled = true;
+                mnuCage.Enabled = true;
+                mnuUser.Enabled = true;
+            }
+            else if (User.Role == 3)
+            {
+                Role.Text = "Zoo Trainer";
                 mnuAnimals.Enabled = true;
                 mnuFood.Enabled = true;
                 mnuSchedule.Enabled = true;
@@ -88,135 +85,60 @@ namespace ZooManagementApp
                 mnuCage.Enabled = false;
                 Role.Text = "Admin";
             }
-
-
         }
 
         private void mnuAnimals_Click(object sender, EventArgs e)
         {
-            if (Role.Text is "Staff" or "Zoo Trainer" )
-            {
+            frmAnimalss.TopLevel = false;
+            panel.Controls.Add(frmAnimalss);
+            frmAnimalss.Activate();
+            frmAnimalss.Show();
+            frmAnimalss.BringToFront();
 
+            frmUserr.Hide();
+            frmCagee.Hide();
+            frmFoodd.Hide();
+            frmSchedulee.Hide();
+            this.Refresh();
 
-            
-                frmAnimalss.TopLevel = false;
-                panel.Controls.Add(frmAnimalss);
-                frmAnimalss.BringToFront();
-
-                frmAnimalss.Show();
-                frmCagee.Hide();
-                frmFoodd.Hide();
-             
-              
-                
-            }
-
-            else
-            {
-             
-                MessageBox.Show("You Don't Have permission", "Menu");
-            }
-           
         }
 
         private void mnuFood_Click(object sender, EventArgs e)
         {
-            if (Role.Text == "Staff")
-            {
-               
-             
-                frmFoodd.TopLevel = false;
-                panel.Controls.Add(frmFoodd);
-                frmFoodd.BringToFront();
+            frmFoodd.TopLevel = false;
+            panel.Controls.Add(frmFoodd);
+            frmFoodd.BringToFront();
 
-                frmFoodd.Show();
-                frmAnimalss.Hide();
-                frmCagee.Hide();
-                frmSchedulee.Hide();
-            }
-            else if (Role.Text == "Zoo Trainer")
-            {
-            
-
-                frmFoodd.TopLevel = false;
-                panel.Controls.Add(frmFoodd);
-                frmFoodd.BringToFront();
-               
-                frmFoodd.Show();
-                frmAnimalss.Hide();
-                frmCagee.Hide();
-                frmSchedulee.Hide();    
-            }
-            else
-            {
-                mnuFood.Enabled=false;
-                MessageBox.Show("You Don't Have permission", "Menu");
-
-            }
+            frmUserr.Hide();
+            frmAnimalss.Hide();
+            frmCagee.Hide();
+            frmFoodd.Show();
+            frmSchedulee.Hide();
         }
 
         private void mnuCage_Click(object sender, EventArgs e)
         {
-            if (Role.Text == "Staff")
-            {
-               
-             
-                frmCagee.TopLevel = false;
-                    panel.Controls.Add(frmCagee);
-                    frmCagee.BringToFront();
-             
-                frmCagee.Show();
-                frmAnimalss.Hide();
-                frmSchedulee.Hide();
-                frmFoodd.Hide();
-            }
-            else if (Role.Text == "Zoo Trainer")
-            {
-                frmCagee.TopLevel = false;
-                panel.Controls.Add(frmCagee);
-                frmCagee.BringToFront();
-               
-                frmCagee.Show();
-                frmAnimalss.Hide();
-                frmSchedulee.Hide();
-                frmFoodd.Hide();
-            }
-            else
-            {
-                mnuCage.Checked=false;
-                MessageBox.Show("You Don't Have permission", "Menu");
+            frmCagee.TopLevel = false;
+            panel.Controls.Add(frmCagee);
+            frmCagee.BringToFront();
 
-            }
+            frmUserr.Hide();
+            frmAnimalss.Hide();
+            frmCagee.Show();
+            frmFoodd.Hide();
+            frmSchedulee.Hide();
         }
 
         private void mnuSchedule_Click(object sender, EventArgs e)
         {
-            if (Role.Text == "Staff")
-            {
-              frmSchedulee.TopLevel = false;
-                panel.Controls.Add(frmSchedulee);
-                    frmSchedulee.BringToFront();
-                frmSchedulee.Show();
-                frmAnimalss.Hide();
-               frmCagee.Hide();
-                frmFoodd.Hide();
-            }
-            else if (Role.Text == "Zoo Trainer")
-            {
-                frmSchedulee.TopLevel = false;
-                panel.Controls.Add(frmSchedulee);
-                frmSchedulee.BringToFront();
-                frmSchedulee.Show();
-                frmAnimalss.Hide();
-              frmCagee.Hide();
-                frmFoodd.Hide();
-            }
-            else
-            {
-                mnuFood.Enabled=false;
-                MessageBox.Show("You Don't Have permission", "Menu");
-
-            }
+            frmSchedulee.TopLevel = false;
+            panel.Controls.Add(frmSchedulee);
+            frmSchedulee.BringToFront();
+            frmUserr.Hide();
+            frmAnimalss.Hide();
+            frmCagee.Hide();
+            frmFoodd.Hide();
+            frmSchedulee.Show();
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)
@@ -226,10 +148,9 @@ namespace ZooManagementApp
             if (result == DialogResult.OK)
             {
 
-               this.Hide();
-                frmLoginn.ShowDialog();  
+                this.Hide();
             }
-            
+
         }
     }
 }

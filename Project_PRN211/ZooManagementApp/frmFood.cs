@@ -57,7 +57,7 @@ namespace ZooManagementApp
                 cboCategoryName.DataBindings.Clear();
 
                 txtFoodId.DataBindings.Add("Text", source, "FoodId");
-                txtFoodName.DataBindings.Add("Text", source, "FoodName");
+                txtFoodName.DataBindings.Add("Text", source, "FName");
                 nudQuantity.DataBindings.Add("Value", source, "Quantity");
                 dtpImportDate.DataBindings.Add("Text", source, "ImportDate");
                 dtpExpiredDate.DataBindings.Add("Text", source, "ExpiredDate");
