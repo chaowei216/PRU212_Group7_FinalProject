@@ -15,7 +15,7 @@ namespace DataAccess
         private ScheduleDAO() { }
         public static ScheduleDAO Instance
         {
-            get 
+            get
             {
                 lock (lockObject)
                 {
@@ -41,8 +41,20 @@ namespace DataAccess
         public bool AddNewSchedule(Schedule schedule)
         {
             using var db = new ZooManagementFormContext();
-            db.Schedules.Add(schedule);
-            return db.SaveChanges() > 0;
+            try
+            {
+                var total = GetSchedules().Count();
+                int count = total + 1;
+                var scheduleId = "SC" + count.ToString().PadLeft(4, '0');
+                schedule.ScheduleId = scheduleId;
+                schedule.Status = true;
+                db.Schedules.Add(schedule);
+                return db.SaveChanges() > 0;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         public bool UpdateSchedule(Schedule schedule)
@@ -57,9 +69,9 @@ namespace DataAccess
             return false;
         }
 
-       
 
-       public bool DeleteSchedule(Schedule c)
+
+        public bool DeleteSchedule(Schedule c)
         {
             using var db = new ZooManagementFormContext();
             Schedule? sche = db.Schedules.FirstOrDefault(f => f.ScheduleId == c.ScheduleId);
@@ -69,6 +81,90 @@ namespace DataAccess
                 return db.SaveChanges() > 0;
             }
             return false;
+        }
+
+        public List<AnimalSchedule> GetSchedulesByAnimalId(string animalId)
+        {
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                var animal = db.Animals.FirstOrDefault(a => a.AnimalId.Equals(animalId));
+                if(animal != null)
+                {
+                    return db.AnimalSchedules.Include(a => a.Animal).Include(a => a.Schedule).Where(a => a.AnimalId.Equals(animalId)).ToList();
+                } else
+                {
+                    throw new Exception("Animal is not existed!");
+                }
+            } catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public bool AddAnimalSchedule(AnimalSchedule animal)
+        {
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                var aSche = db.AnimalSchedules.FirstOrDefault(a => a.AnimalId.Equals(animal.AnimalId) && a.ScheduleId.Equals(a.ScheduleId));
+                if(aSche == null)
+                {
+                    db.AnimalSchedules.Add(animal);
+                    return db.SaveChanges() > 0;
+                } else
+                {
+                    return false;
+                }
+
+            } catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        } 
+
+        public bool UpdateAnimalSchedule(AnimalSchedule animal)
+        {
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                var aSche = db.AnimalSchedules.FirstOrDefault(a => a.AnimalId.Equals(animal.AnimalId) && a.ScheduleId.Equals(a.ScheduleId));
+                if(aSche != null)
+                {
+                    aSche.Time = animal.Time;
+                    aSche.Description = animal.Description;
+                    db.AnimalSchedules.Update(aSche);
+                    return db.SaveChanges() > 0;
+                } else
+                {
+                    throw new Exception("Does not exist!");
+                }
+            } catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public bool DeleteAnimalSchedule(AnimalSchedule animal)
+        {
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                var aSche = db.AnimalSchedules.FirstOrDefault(a => a.AnimalId.Equals(animal.AnimalId) && a.ScheduleId.Equals(a.ScheduleId));
+                if (aSche != null)
+                {
+                    db.AnimalSchedules.Remove(aSche);
+                    return db.SaveChanges() > 0;
+                }
+                else
+                {
+                    throw new Exception("Does not exist!");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

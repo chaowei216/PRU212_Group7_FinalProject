@@ -16,5 +16,9 @@ namespace DataAccess.Repository
         bool UpdateSchedule(Schedule newSchedule);
         List<Schedule> GetAllSchedules();
         void DeleteSchedule (Schedule c );
+        List<AnimalSchedule> GetScheduleOfAnimal(string id);
+        bool AddAnimalSchedule(AnimalSchedule animalSchedule);
+        bool UpdateAnimalSchedule(AnimalSchedule animalSchedule);
+        bool DeleteAnimalSchedule(AnimalSchedule animalSchedule);
     }
 }

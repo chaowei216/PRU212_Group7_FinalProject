@@ -192,7 +192,7 @@
             menuStrip5.Location = new Point(16, 362);
             menuStrip5.Name = "menuStrip5";
             menuStrip5.Padding = new Padding(5, 2, 0, 2);
-            menuStrip5.Size = new Size(90, 28);
+            menuStrip5.Size = new Size(210, 28);
             menuStrip5.TabIndex = 7;
             menuStrip5.Text = "menuStrip5";
             // 
@@ -202,6 +202,7 @@
             mnuSchedule.Name = "mnuSchedule";
             mnuSchedule.Size = new Size(83, 24);
             mnuSchedule.Text = "Schedule";
+            mnuSchedule.Click += mnuSchedule_Click_1;
             // 
             // Role
             // 

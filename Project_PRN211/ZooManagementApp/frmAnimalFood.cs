@@ -46,7 +46,6 @@ namespace ZooManagementApp
                 cboFoodList.DataSource = foodList;
                 cboFoodList.DisplayMember = "Fname";
                 cboFoodList.ValueMember = "FoodId";
-                cboFoodList.SelectedIndex = 0;
             }
             catch (Exception ex)
             {
@@ -62,8 +61,7 @@ namespace ZooManagementApp
                 BindingSource source = new BindingSource();
                 source.DataSource = foods.Select(a => new
                 {
-                    a.AnimalId,
-                    a.FoodId,
+                    a.Food.Fname,
                     a.StartEat,
                     a.EndEat,
                     a.Amount
@@ -74,7 +72,7 @@ namespace ZooManagementApp
                 dtpEndEat.DataBindings.Clear();
                 nudAmount.DataBindings.Clear();
 
-                cboFoodList.DataBindings.Add("Text", source, "FoodId");
+                cboFoodList.DataBindings.Add("Text", source, "FName");
                 dtpStartEat.DataBindings.Add("Text", source, "StartEat");
                 dtpEndEat.DataBindings.Add("Text", source, "EndEat");
                 nudAmount.DataBindings.Add("Value", source, "Amount");
@@ -124,6 +122,7 @@ namespace ZooManagementApp
                 CreateOrUpdate = false;
                 btnDelete.Enabled = true;
                 btnSave.Enabled = false;
+                LoadAnimalFoodList();
             }
         }
 
@@ -146,20 +145,23 @@ namespace ZooManagementApp
                 btnAdd.Enabled = true;
                 btnDelete.Enabled = true;
                 btnSave.Enabled = false;
+                LoadAnimalFoodList();
             }
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if(dtpStartEat.Value.Date > dtpEndEat.Value.Date)
+            if (dtpStartEat.Value.Date > dtpEndEat.Value.Date)
             {
                 MessageBox.Show("Start date must be less than End Date", "Animal Food", MessageBoxButtons.OK, MessageBoxIcon.Information,
                                 MessageBoxDefaultButton.Button1);
-            } else if(nudAmount.Value == null || nudAmount.Value < 1)
+            }
+            else if (nudAmount.Value == null || nudAmount.Value < 1)
             {
                 MessageBox.Show("Amount must be greater than 0", "Animal Food", MessageBoxButtons.OK, MessageBoxIcon.Information,
                                 MessageBoxDefaultButton.Button1);
-            } else
+            }
+            else
             {
                 AnimalFood af = new AnimalFood
                 {
@@ -170,36 +172,42 @@ namespace ZooManagementApp
                     Amount = int.Parse(nudAmount.Text),
                 };
 
-                if(CreateOrUpdate)
+                if (CreateOrUpdate)
                 {
-                    if(foodRepository.AddFoodForAnimal(af))
+                    if (foodRepository.AddFoodForAnimal(af))
                     {
                         btnAdd.Text = "Add";
                         btnUpdate.Enabled = true;
                         btnDelete.Enabled = true;
                         CreateOrUpdate = false;
+                        EnableText(false);
+                        btnSave.Enabled = false;
+                        LoadAnimalFoodList();
                         MessageBox.Show("Add successfully", "Update Food For Animal");
-                    } else
+                    }
+                    else
                     {
                         MessageBox.Show("Fail to add food", "Add Food For Animal");
                     }
-                    
-                } else
+
+                }
+                else
                 {
-                    if(foodRepository.UpdateFoodForAnimal(af))
+                    if (foodRepository.UpdateFoodForAnimal(af))
                     {
                         btnUpdate.Text = "Update";
                         btnAdd.Enabled = true;
                         btnDelete.Enabled = true;
+                        EnableText(false);
+                        btnSave.Enabled = false;
+                        LoadAnimalFoodList();
                         MessageBox.Show("Update successfully", "Update Food For Animal");
-                    } else
+                    }
+                    else
                     {
                         MessageBox.Show("Fail to update food", "Update Food For Animal");
                     }
                 }
-                EnableText(false);
-                btnSave.Enabled = false;
-                LoadAnimalFoodList();
             }
         }
 
@@ -209,19 +217,21 @@ namespace ZooManagementApp
             d = MessageBox.Show("Are you sure you wanna delete it?", "Animal Food",
                                 MessageBoxButtons.YesNo, MessageBoxIcon.Question,
                                 MessageBoxDefaultButton.Button1);
-            if(d == DialogResult.Yes)
+            if (d == DialogResult.Yes)
             {
                 var af = new AnimalFood
                 {
                     AnimalId = txtAnimalId.Text,
                     FoodId = cboFoodList.SelectedValue.ToString()
                 };
-                if(foodRepository.DeleteFoodForAnimal(af))
+                if (foodRepository.DeleteFoodForAnimal(af))
                 {
+                    LoadAnimalFoodList();
                     MessageBox.Show("Delete successfully", "Delete Food");
-                } else
+                }
+                else
                 {
-                    MessageBox.Show("Fail to delete food", "Delete Food");
+                    MessageBox.Show("Animal didnt eat it anymore!", "Delete Food");
                 }
             }
         }

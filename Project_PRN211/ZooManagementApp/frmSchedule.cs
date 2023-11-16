@@ -15,20 +15,18 @@ namespace ZooManagementApp
     public partial class frmSchedule : Form
     {
         IScheduleRepository repo = new ScheduleRepository();
-
-        public frmSchedule(string v, string _email)
-        {
-            InitializeComponent();
-        }
+        public User User { get; set; }
 
         public frmSchedule()
         {
             InitializeComponent();
         }
 
-        private void txtScheduleId_TextChanged(object sender, EventArgs e)
+        public void ClearText()
         {
-
+            txtScheduleId.Text = string.Empty;
+            txtScheduleName.Text = string.Empty;
+            txtStatus.Text = string.Empty;
         }
 
         public void LoadSchedule()
@@ -62,6 +60,10 @@ namespace ZooManagementApp
 
         private void frmSchedule_Load(object sender, EventArgs e)
         {
+            btnSave.Enabled = false;
+            txtScheduleId.Enabled = false;
+            txtScheduleName.Enabled = false;
+            txtStatus.Enabled = false;
             LoadSchedule();
         }
 
@@ -74,11 +76,73 @@ namespace ZooManagementApp
             {
                 var a = new Schedule
                 {
-                   ScheduleId = (txtScheduleId.Text),
+                    ScheduleId = (txtScheduleId.Text),
                 };
                 repo.DeleteSchedule(a);
                 LoadSchedule();
             }
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            if (btnNew.Text == "New")
+            {
+                btnNew.Text = "Cancel";
+                btnSave.Enabled = true;
+                btnDelete.Enabled = false;
+                txtScheduleName.Enabled = true;
+                txtScheduleId.Enabled = false;
+                txtStatus.Enabled = false;
+                ClearText();
+                dgv.ClearSelection();
+            }
+            else
+            {
+                btnNew.Text = "New";
+                btnSave.Enabled = false;
+                btnDelete.Enabled = true;
+                LoadSchedule();
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (txtScheduleName.Text == "")
+            {
+                MessageBox.Show("All fields are required!!", "Schedule Management", MessageBoxButtons.OK,
+                                MessageBoxIcon.Question, MessageBoxDefaultButton.Button1);
+            }
+            else
+            {
+                try
+                {
+                    Schedule sc = new Schedule
+                    {
+                        ScheduleName = txtScheduleName.Text,
+                    };
+
+                    if (repo.AddNewSchedule(sc))
+                    {
+                        MessageBox.Show("Add Successfully", "Schedule Management");
+                        btnSave.Enabled = false;
+                        btnNew.Text = "New";
+                        btnDelete.Enabled = true;
+                        txtScheduleName.Enabled = false;
+                        LoadSchedule();
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Schedule Management");
+                }
+
+            }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
-    }
+}

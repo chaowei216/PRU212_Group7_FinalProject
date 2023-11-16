@@ -145,6 +145,7 @@
             dtpEndEat.Name = "dtpEndEat";
             dtpEndEat.Size = new Size(200, 23);
             dtpEndEat.TabIndex = 11;
+            dtpEndEat.Value = new DateTime(2023, 11, 16, 8, 41, 22, 0);
             // 
             // nudAmount
             // 

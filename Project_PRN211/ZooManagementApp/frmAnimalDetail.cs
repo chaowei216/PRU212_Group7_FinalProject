@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ZooManagementApp
 {
@@ -16,6 +17,7 @@ namespace ZooManagementApp
     {
         ICageRepository _cageRepository = new CageRepository();
         IUserRepository _userRepository = new UserRepository();
+        public User User { get; set; }
         public frmAnimalDetail()
         {
             InitializeComponent();
@@ -156,7 +158,32 @@ namespace ZooManagementApp
                 {
                     MessageBox.Show(ex.Message);
                 }
+                if (User.Role != 2)
+                {
+                    lbAnimalId.Visible = false;
+                    txtAnimalId.Visible = false;
+                    lbHealth.Visible = false;
+                    cboHealth.Visible = false;
 
+                    txtAnimalId.Enabled = false;
+                    txtName.Enabled = false;
+                    cbRarity.Enabled = false;
+                    cboRegion.Enabled = false;
+                    rbFemale.Enabled = false;
+                    rbMale.Enabled = false;
+                    rbMale.Checked = false;
+                    cboSpecies.Enabled = false;
+                    rtbDescription.Enabled = true;
+                    cboHealth.Enabled = false;
+                    dtpBirthday.Enabled = false;
+                    btnSave.Enabled = false;
+                    cboCageList.Enabled = false;
+                    cboTrainer.Enabled = false;
+                }
+            } else
+            {
+                btnAddFood.Visible = false;
+                btnAddSchedule.Visible = false;
             }
         }
 
@@ -259,6 +286,15 @@ namespace ZooManagementApp
         private void btnAddFood_Click(object sender, EventArgs e)
         {
             frmAnimalFood f = new frmAnimalFood
+            {
+                Animal = AnimalInfo
+            };
+            f.Show();
+        }
+
+        private void btnAddSchedule_Click(object sender, EventArgs e)
+        {
+            frmAnimalSchedule f = new frmAnimalSchedule
             {
                 Animal = AnimalInfo
             };

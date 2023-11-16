@@ -12,6 +12,7 @@ namespace DataAccess.Repository
         public User CheckLogin(string email, string password);
         public List<User> GetUsers();
         public User GetTrainerByAnimalId(string animalId);
+        public List<User> GetTrainers();
         public User GetUserByID(string id);
         public List<User> GetUsersByRole(int role);
         public User GetUserByLastName(string name);

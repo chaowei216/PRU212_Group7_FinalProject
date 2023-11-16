@@ -59,5 +59,7 @@ namespace DataAccess.Repository
         }
 
         public User GetTrainerByAnimalId(string animalId) => UserDAO.Instance.GetTrainerByAnimalId(animalId);
+
+        public List<User> GetTrainers() => UserDAO.Instance.GetTrainers();
     }
 }

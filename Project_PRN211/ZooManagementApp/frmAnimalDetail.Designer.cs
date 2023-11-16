@@ -329,6 +329,7 @@
             btnAddSchedule.TabIndex = 2;
             btnAddSchedule.Text = "Add Schedule";
             btnAddSchedule.UseVisualStyleBackColor = true;
+            btnAddSchedule.Click += btnAddSchedule_Click;
             // 
             // btnAddFood
             // 

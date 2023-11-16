@@ -94,9 +94,21 @@ namespace ZooManagementApp
 
         private void frmFood_Load(object sender, EventArgs e)
         {
-            btnSave.Enabled = false;
-            EnableText(false);
-            LoadFoodList();
+            if(User.Role == 2)
+            {
+                btnSave.Enabled = false;
+                EnableText(false);
+                LoadFoodList();
+            } else
+            {
+                btnSave.Enabled = false;
+                btnDelete.Enabled = false;
+                btnUpdate.Enabled = false;
+                btnNew.Enabled = false;
+                EnableText(false);
+                LoadFoodList();
+            }
+
         }
 
         private void btnNew_Click(object sender, EventArgs e)

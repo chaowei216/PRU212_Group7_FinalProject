@@ -31,10 +31,14 @@ namespace ZooManagementApp
             try
             {
                 txtSearch.Enabled = true;
-                var user = userRepository.GetUsers().Where(u => u.Status == true).ToList();
+                List<User> users = new List<User>();
+                if (User.Role == 2)
+                {
+                    users = userRepository.GetTrainers().ToList();
+                } else users = userRepository.GetUsers().Where(u => u.Status == true).ToList();
                 btnNew.Enabled = true;
                 source = new BindingSource();
-                source.DataSource = user.OrderBy(m => m.UserId);
+                source.DataSource = users.OrderBy(m => m.UserId);
 
                 txtAddress.DataBindings.Clear();
                 txtCountAnimal.DataBindings.Clear();
@@ -62,7 +66,7 @@ namespace ZooManagementApp
                 dataGridView1.DataSource = source;
                 dataGridView1.Columns["EndDate"].Visible = false;
                 dataGridView1.Columns["AnimalTrainers"].Visible = false;
-                if (user.Count() == 0)
+                if (users.Count() == 0)
                 {
                     ClearText();
                     btnDelete.Enabled = false;

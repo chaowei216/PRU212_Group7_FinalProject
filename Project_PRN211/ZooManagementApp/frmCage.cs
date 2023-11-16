@@ -24,7 +24,17 @@ namespace ZooManagementApp
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            LoadCage();
+            if (User.Role == 2)
+            {
+                LoadCage();
+            }
+            else
+            {
+                LoadCage();
+                btnDelete.Enabled = false;
+                btnNew.Enabled = false;
+            }
+
         }
 
         private void btnNew_Click(object sender, EventArgs e)

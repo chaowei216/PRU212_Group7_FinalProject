@@ -108,7 +108,8 @@ namespace ZooManagementApp
                 }
                 else
                 {
-                    btnDelete.Enabled = true;
+                    if (User.Role != 2) btnDelete.Enabled = false;
+                    else btnDelete.Enabled = true;
                     btnUpdate.Enabled = true;
                 }
             }
@@ -138,7 +139,8 @@ namespace ZooManagementApp
             {
                 InsertOrUpdate = true,
                 AnimalRepository = animalRepo,
-                AnimalInfo = GetAnimal()
+                AnimalInfo = GetAnimal(),
+                User = User
             };
             if (frmAnimalDetail.ShowDialog() == DialogResult.OK)
             {
@@ -149,10 +151,23 @@ namespace ZooManagementApp
 
         private void frmAnimals_Load(object sender, EventArgs e)
         {
-            EnableText(false);
-            cboHealthCheck.SelectedIndex = 0;
-            cboFilter.SelectedIndex = 0;
-            LoadAnimalList();
+            if (User.Role == 2)
+            {
+                EnableText(false);
+                cboHealthCheck.SelectedIndex = 0;
+                cboFilter.SelectedIndex = 0;
+                LoadAnimalList();
+            }
+            else
+            {
+                btnNew.Enabled = false;
+                EnableText(false);
+                cboHealthCheck.SelectedIndex = 0;
+                cboFilter.SelectedIndex = 0;
+                btnDelete.Enabled = false;
+                LoadAnimalList();
+            }
+
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

@@ -55,7 +55,10 @@ namespace ZooManagementApp
             {
                 User = User,
             };
-            frmSchedulee = new frmSchedule();
+            frmSchedulee = new frmSchedule
+            {
+                User = User,
+            };
             frmFoodd = new frmFood
             {
                 User = User,
@@ -78,7 +81,7 @@ namespace ZooManagementApp
                 Role.Text = "Zoo Trainer";
                 mnuAnimals.Enabled = true;
                 mnuFood.Enabled = true;
-                mnuSchedule.Enabled = true;
+                mnuSchedule.Enabled = false;
                 mnuCage.Enabled = true;
                 mnuUser.Enabled = false;
             }
@@ -88,6 +91,7 @@ namespace ZooManagementApp
                 mnuFood.Enabled = false;
                 mnuSchedule.Enabled = false;
                 mnuCage.Enabled = false;
+                mnuUser.Enabled = true;
                 Role.Text = "Admin";
             }
         }
@@ -134,18 +138,6 @@ namespace ZooManagementApp
             frmSchedulee.Hide();
         }
 
-        private void mnuSchedule_Click(object sender, EventArgs e)
-        {
-            frmSchedulee.TopLevel = false;
-            panel.Controls.Add(frmSchedulee);
-            frmSchedulee.BringToFront();
-            frmUserr.Hide();
-            frmAnimalss.Hide();
-            frmCagee.Hide();
-            frmFoodd.Hide();
-            frmSchedulee.Show();
-        }
-
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Menu", MessageBoxButtons.OKCancel);
@@ -156,6 +148,18 @@ namespace ZooManagementApp
                 this.Hide();
             }
 
+        }
+
+        private void mnuSchedule_Click_1(object sender, EventArgs e)
+        {
+            frmSchedulee.TopLevel = false;
+            panel.Controls.Add(frmSchedulee);
+            frmSchedulee.Show();
+            frmSchedulee.BringToFront();
+            frmUserr.Hide();
+            frmAnimalss.Hide();
+            frmCagee.Hide();
+            frmFoodd.Hide();
         }
     }
 }

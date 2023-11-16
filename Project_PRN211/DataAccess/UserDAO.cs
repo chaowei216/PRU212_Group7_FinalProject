@@ -150,6 +150,18 @@ namespace DataAccess
             return GetUsers().Where(x => x.Phone == phone).FirstOrDefault();
         }
 
+        public List<User> GetTrainers()
+        {
+            try
+            {
+                using var db = new ZooManagementFormContext();
+                return db.Users.Where(u => u.Role ==  3 && u.Status == true).ToList();
+            } catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
         public bool DeleteUser(string id)
         {
             var user = GetUserByID(id);

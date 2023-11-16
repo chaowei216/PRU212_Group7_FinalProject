@@ -1,4 +1,5 @@
 ﻿using BussinessObject.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 using System;
 using System.Collections.Generic;
@@ -122,7 +123,7 @@ namespace DataAccess
         public List<AnimalFood> LoadFoodOfAnimal(string animalId)
         {
             using var db = new ZooManagementFormContext();
-            return db.AnimalFoods.Where(af => af.AnimalId.Equals(animalId)).ToList();
+            return db.AnimalFoods.Include(a => a.Food).Include(a => a.Animal).Where(af => af.AnimalId.Equals(animalId)).ToList();
         }
 
         public bool AddFoodForAnimal(AnimalFood food)
@@ -138,12 +139,18 @@ namespace DataAccess
             }
         }
 
+        public AnimalFood GetAnimalFoodById(string aId, string fId)
+        {
+            using var db = new ZooManagementFormContext();
+            return db.AnimalFoods.FirstOrDefault(a => a.AnimalId.Equals(aId) && a.FoodId.Equals(fId));
+        }
+
         public bool UpdateFoodForAnimal(AnimalFood af)
         {
             using var db = new ZooManagementFormContext();
             try
             {
-                var aniFood = db.AnimalFoods.FirstOrDefault(a => a.AnimalId.Equals(af.AnimalId) && a.FoodId.Equals(af.FoodId));
+                var aniFood = GetAnimalFoodById(af.AnimalId, af.FoodId);
                 if (aniFood != null)
                 {
                     aniFood.EndEat = af.EndEat;
@@ -166,7 +173,7 @@ namespace DataAccess
                 {
                     if (aniFood.EndEat < DateTime.Now)
                     {
-                        throw new Exception("Animal didnt eat it more!");
+                        return false;
                     }
                     else
                     {

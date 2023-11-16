@@ -10,6 +10,9 @@
     <Compile Update="frmAnimals.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmAnimalSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmCage.cs">
       <SubType>Form</SubType>
     </Compile>
