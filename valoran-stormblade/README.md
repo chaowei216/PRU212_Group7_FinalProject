@@ -28,7 +28,6 @@ Welcome to Valoran Stormblade, an exciting adventure game where players embark o
 
 **Screen Design**
 
-![Gameplay Image](Mockup/member.png)
 ![Gameplay Image](Mockup/menu.png)
 ![Gameplay Image](Mockup/volumn.png)
 ![Gameplay Image](Mockup/instruction.png)
