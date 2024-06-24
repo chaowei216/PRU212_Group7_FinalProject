@@ -36,9 +36,10 @@ Welcome to Valoran Stormblade, an exciting adventure game where players embark o
 ![Potion Shop](Mockup/potionshop.png)
 ![Game Over](Mockup/gameover.png)
 ![Victory](Mockup/victory.png)
+
 **References**
 
-- [Hero Knight Pixel Art](https://assetstore.unity.com/packages/2d/characters/hero-knight-pixel-art-165188)
-- [Pixel Art Platformer Village Props](https://assetstore.unity.com/packages/2d/environments/pixel-art-platformer-village-props-166114)
-- [2D Pixel Item Asset Pack](https://assetstore.unity.com/packages/2d/gui/icons/2d-pixel-item-asset-pack-99645)
-- [Dragon Warrior Free](https://assetstore.unity.com/packages/2d/characters/dragon-warrior-free-93896)
+- [![Hero Knight Pixel Art](https://assetstore.unity.com/images/screenshot/165188/hero-knight-pixel-art-0.jpg)](https://assetstore.unity.com/packages/2d/characters/hero-knight-pixel-art-165188)
+- [![Pixel Art Platformer Village Props](https://assetstore.unity.com/images/screenshot/166114/pixel-art-platformer-village-props-0.jpg)](https://assetstore.unity.com/packages/2d/environments/pixel-art-platformer-village-props-166114)
+- [![2D Pixel Item Asset Pack](https://assetstore.unity.com/images/screenshot/99645/2d-pixel-item-asset-pack-0.jpg)](https://assetstore.unity.com/packages/2d/gui/icons/2d-pixel-item-asset-pack-99645)
+- [![Dragon Warrior Free](https://assetstore.unity.com/images/screenshot/93896/dragon-warrior-free-0.jpg)](https://assetstore.unity.com/packages/2d/characters/dragon-warrior-free-93896)
