@@ -1,4 +1,4 @@
-# PRU212_Project_Final_Group7
+![image](https://github.com/chaowei216/PRU212_Group7_FinalProject/assets/97719955/b77682a6-123c-4f79-a229-8c6b64e5f6be)# PRU212_Project_Final_Group7
 Project Final PRU212
 ## Game Introduction
 
@@ -39,7 +39,7 @@ Welcome to Valoran Stormblade, an exciting adventure game where players embark o
 
 **References**
 
-- [![Hero Knight Pixel Art](https://assetstore.unity.com/images/screenshot/165188/hero-knight-pixel-art-0.jpg)](https://assetstore.unity.com/packages/2d/characters/hero-knight-pixel-art-165188)
-- [![Pixel Art Platformer Village Props](https://assetstore.unity.com/images/screenshot/166114/pixel-art-platformer-village-props-0.jpg)](https://assetstore.unity.com/packages/2d/environments/pixel-art-platformer-village-props-166114)
-- [![2D Pixel Item Asset Pack](https://assetstore.unity.com/images/screenshot/99645/2d-pixel-item-asset-pack-0.jpg)](https://assetstore.unity.com/packages/2d/gui/icons/2d-pixel-item-asset-pack-99645)
-- [![Dragon Warrior Free](https://assetstore.unity.com/images/screenshot/93896/dragon-warrior-free-0.jpg)](https://assetstore.unity.com/packages/2d/characters/dragon-warrior-free-93896)
+- [![Hero Knight Pixel Art](https://assetstorev1-prd-cdn.unity3d.com/key-image/4b0b754f-5a35-4404-8f60-b5c5b0edeef3.jpg)
+- [![Pixel Art Platformer Village Props](https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/13e5165f-2aed-47d9-968d-2201d0361a6d_scaled.jpg)
+- [![2D Pixel Item Asset Pack](https://assetstorev1-prd-cdn.unity3d.com/key-image/14d5c395-a5ca-4baa-898f-ea5f86b9d294.png?v=1)
+- [![Dragon Warrior Free](https://assetstorev1-prd-cdn.unity3d.com/key-image/8f00bb80-66b5-46ea-a54d-a02a42ddfe8c.jpg)
