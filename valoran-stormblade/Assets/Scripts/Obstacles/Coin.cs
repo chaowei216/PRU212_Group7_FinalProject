@@ -18,6 +18,7 @@ public class Coin : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+        Debug.Log("Coin");
 		if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);

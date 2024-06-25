@@ -25,6 +25,11 @@ public class PlayerMovement : MonoBehaviour
     [Header("Sounds")]
     [SerializeField] private AudioClip jumpSound;
 
+    [Header("Game Over")]
+    [SerializeField] private float maxFallHeight = -10f;
+
+    private bool isDead = false;
+    private UIManager uiManager;
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
@@ -37,11 +42,22 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        uiManager = FindObjectOfType<UIManager>();
     }
 
     private void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
+        Debug.Log("Vị trí hiện tại: " + transform.position);
+        // Kiểm tra vị trí của nhân vật
+        /*if (transform.position.y < maxFallHeight) // Ví dụ, nếu nhân vật rơi khỏi màn hình ở dưới 10 đơn vị
+        {
+            //anim.SetBool("grounded", true);
+            anim.SetTrigger("die");
+            uiManager.GameOver();
+            isDead = true;
+        }*/
+
 
         //Flip player when moving left-right
         if (horizontalInput > 0.01f)
@@ -55,7 +71,10 @@ public class PlayerMovement : MonoBehaviour
 
         //Jump
         if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Vị trí hiện tại: " + transform.position);
             Jump();
+        }
 
         //Adjustable jump height
         if (Input.GetKeyUp(KeyCode.Space) && body.velocity.y > 0)
@@ -135,4 +154,5 @@ public class PlayerMovement : MonoBehaviour
     {
         return horizontalInput == 0 && isGrounded() && !onWall();
     }
+    
 }
