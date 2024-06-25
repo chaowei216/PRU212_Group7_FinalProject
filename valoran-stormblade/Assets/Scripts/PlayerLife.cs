@@ -34,7 +34,11 @@ public class PlayerLife : MonoBehaviour
         {
             SceneManager.LoadScene("ShopScene");
         }
-		else if (collision.gameObject.CompareTag("Victory"))
+        else if (collision.gameObject.CompareTag("Test"))
+        {
+            SceneManager.LoadScene("Level3");
+        }
+        else if (collision.gameObject.CompareTag("Victory"))
 		{
 			SceneManager.LoadScene("Victory");
 		}

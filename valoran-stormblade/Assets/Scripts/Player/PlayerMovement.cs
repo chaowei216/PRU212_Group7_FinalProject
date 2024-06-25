@@ -48,16 +48,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
-        Debug.Log("Vị trí hiện tại: " + transform.position);
-        // Kiểm tra vị trí của nhân vật
-        /*if (transform.position.y < maxFallHeight) // Ví dụ, nếu nhân vật rơi khỏi màn hình ở dưới 10 đơn vị
-        {
-            //anim.SetBool("grounded", true);
-            anim.SetTrigger("die");
-            uiManager.GameOver();
-            isDead = true;
-        }*/
-
 
         //Flip player when moving left-right
         if (horizontalInput > 0.01f)

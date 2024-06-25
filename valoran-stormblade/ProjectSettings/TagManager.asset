@@ -14,7 +14,7 @@ TagManager:
   - EnemyA
   - EnemyB
   - Victory
-  - Music
+  - Test
   layers:
   - Default
   - TransparentFX
