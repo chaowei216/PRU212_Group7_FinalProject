@@ -10,6 +10,7 @@ public class HealthPlayer : MonoBehaviour
 {
     public int maxHealth = 100;
     private int currentHealth;
+    private bool isImmortal = false;
     private Rigidbody2D rb;
     private Animator anim;
     [SerializeField] FloatingHealthBar healthBar;
@@ -24,21 +25,26 @@ public class HealthPlayer : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        //currentHealth = maxHealth;
+        currentHealth = maxHealth;
         currentHealth = DataManager.instance.health;
         healthBar = GetComponentInChildren<FloatingHealthBar>();
         healthBar.UpdateHealthBar(currentHealth,maxHealth);
         BloodBar = GameObject.FindWithTag("Player").GetComponentInChildren<Slider>();
     }
 
+    public void SetImmortal(bool value)
+    {
+        isImmortal = value;
+    }
+
     public void TakeDamage(int damage)
     {
-        if (!isAlive) return;
+        if (!isAlive || isImmortal) return;
         currentHealth -= damage;
         healthBar.UpdateHealthBar(currentHealth, maxHealth);
         DataManager.instance.health = currentHealth;
-		GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().PlayHurt();
-		Debug.Log(currentHealth.ToString());
+        GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().PlayHurt();
+        Debug.Log(currentHealth.ToString());
         if (currentHealth <= 0) {
 			GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
 			GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().PlayDeath();

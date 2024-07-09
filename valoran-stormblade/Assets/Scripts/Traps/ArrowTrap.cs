@@ -30,6 +30,7 @@ public class ArrowTrap : MonoBehaviour
     private void Update()
     {
         cooldownTimer += Time.deltaTime;
+        
 
         if (cooldownTimer >= attackCooldown)
             Attack();

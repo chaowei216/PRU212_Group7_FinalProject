@@ -10,8 +10,12 @@ public class GameOverScreen : MonoBehaviour
         DataManager.instance.health = 100;
         DataManager.instance.speed = 20;
         DataManager.instance.damage = 10;
-        SceneManager.LoadScene("Level1");
+        
+        // Load lại màn chơi hiện tại
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName);
     }
+
     public void Quit()
     {
         SceneManager.LoadScene("StartMenu");
