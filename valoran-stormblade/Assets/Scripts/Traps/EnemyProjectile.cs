@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
@@ -24,15 +25,17 @@ public class EnemyProjectile : MonoBehaviour
         gameObject.SetActive(true);
         coll.enabled = true;
     }
-    private void Update()
+    private void FixedUpdate()
     {
         if (hit) return;
         float movementSpeed = speed * Time.deltaTime;
         transform.Translate(movementSpeed, 0, 0);
 
         lifetime += Time.deltaTime;
-        if (lifetime > resetTime)
+        if (lifetime > resetTime){
             gameObject.SetActive(false);
+        }
+           
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -42,7 +45,6 @@ public class EnemyProjectile : MonoBehaviour
             if (collision.GetComponent<HealthPlayer>() != null)
             {
                 collision.GetComponent<HealthPlayer>().TakeDamage(damage2);
-                Debug.Log("Haha");
                 Deactivate();
             }
         }

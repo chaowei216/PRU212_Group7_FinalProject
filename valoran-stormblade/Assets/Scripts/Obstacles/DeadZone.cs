@@ -11,10 +11,8 @@ public class DeadZone : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Ditme a Vi");
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("xin bao ngo gia");
             uiManager.GameOver();
             return;
         }
