@@ -35,6 +35,9 @@ public class PlayerAttack : MonoBehaviour
         fireballs[FindFireball()].transform.position = firePoint.position;
         fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
+    //check code
+    //fireballs[FindFireball()].transform.position = firePoint.position;
+    //fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     private int FindFireball()
     {
         for (int i = 0; i < fireballs.Length; i++)
