@@ -11,7 +11,7 @@ public class Trap : MonoBehaviour
     {
         playerHealth = FindObjectOfType<HealthPlayer>();
     }
-
+//playerHealth = FindObjectOfType<HealthPlayer>();
     private void OnCollisionEnter2D(Collision2D collision)
     {
         InvokeRepeating("ApplyDamage", 0f, 1f);
