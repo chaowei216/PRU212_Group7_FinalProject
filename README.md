@@ -1,2 +1,2 @@
-# PRU212_Project_Final_Group7
-Project Final PRU212
+# PRU212_NET1706_Group7
+Final_Project_PRU212
